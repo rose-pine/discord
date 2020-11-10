@@ -5,4 +5,4 @@ soho vibes for Discord (specifically BetterDiscord)
 
 Based on Spectra's Nocturnal theme
 
-[![Preview](https://i.imgur.com/d7VnFZk.png)]
+![Preview](https://i.imgur.com/d7VnFZk.png)

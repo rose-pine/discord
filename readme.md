@@ -20,3 +20,7 @@ Tested on Discord + BetterDiscord, Discord Beta + BetterDiscord, Discord Canary 
 ## Screenshots
 
 ![BetterDiscord with Rosé Pine](https://i.imgur.com/d7VnFZk.png)
+
+## Thanks to 
+
+- [ThatOneCalculator](https://github.com/thatonecalculator)

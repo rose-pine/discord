@@ -16,8 +16,8 @@ Tested on Discord + BetterDiscord, Discord Beta + BetterDiscord, Discord Canary 
 
 ## Usage
 
-1. Place `Rose-Pine.theme.css` in your BetterDiscord themes folder. This can be found by going to User Settings --> Themes (Under Bandaged BD) --> Open Theme Folder
-2. Go back to the themes settings (User Settings --> Themes (Under Bandaged BD)) and check the Rosé Pine theme
+1. Place `Rose-Pine.theme.css` in your BetterDiscord themes folder. This can be found by going to User Settings > Themes (Under Bandaged BD) > Open Theme Folder
+2. Go back to the themes settings (User Settings > Themes (Under Bandaged BD)) and check the Rosé Pine theme
 
 ## Gallery
 

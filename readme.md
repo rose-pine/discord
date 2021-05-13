@@ -12,7 +12,7 @@
 </p>
 Based on Spectra's Nocturnal theme
 
-Tested on Discord + BetterDiscord, Discord Beta + BetterDiscord, Discord Canary + BetterDiscord, and my personal favorite, [Lightcord](https://lightcord.github.io/). 
+Tested on Powercord, Discord + BetterDiscord, Discord Beta + BetterDiscord, Discord Canary + BetterDiscord, and Lightcord. 
 
 ## Usage
 

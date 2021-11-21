@@ -1,37 +1,43 @@
-//META{"name":"Rosé Pine","description":"soho vibes for Discord - Based on the Nocturnal theme","author":"ThatOneCalculator & Spectra","version":"Auto Update"}*//
-@import url("https://codedotspectra.github.io/themes/nocturnal/importCSS/core.css");
-@import url('https://fonts.googleapis.com/css2?family=Fira+Code&display=swap');
-/* TONS OF LAG @import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/BasicBackground/BasicBackground.css);*/
-@import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/BlurpleRecolor/BlurpleRecolor.css);
-@import url("https://gibbu.github.io/BetterDiscord-Themes/AdjustableServerWidth/base.css");
-/*@import url("https://gibbu.github.io/BetterDiscord-Themes/RadialStatus/base.css");*/
-
-body {
-  font-family: Fira Code !important;
-  font-size: 12px !important;
+.theme-dark {
+    --background-primary: #191724;
+    --background-secondary: #1f1d2e;
+    --background-tertiary: #26233a;
+    --background-accent: #ebbcba;
+    --text-normal: #e0def4;
+    --text-spotify: #9ccfd8;
+    --text-muted: #555169;
+    --text-link: #31748f;
+    --background-floating: #1f1d2e;
+    --header-primary: #e0def4;
+    --header-secondary: #9ccfd8;
+    --header-spotify: #9ccfd8;
+    --interactive-normal: #e0def4;
+    --interactive-hover: #c4a7e7;
+    --interactive-active: #e0def4;
 }
 
-
-:root {
-	--primary: #9bced7;
-	--primaryGradient2: #f1ca93;
-	--backgroundDark: #1F1D29;
-	--backgroundDarker: #403C58;
-	--font: "Fira Code", monospace;
-	--version1_0_5:	none;
-	--background: #1F1D29;
-	--accentcolor: 234,187,185;	/* blurple - default: 114,137,218 */
-	--linkcolor: 155,206,215;
-	--server-icon-size: 38px;
-	--server-icon-spacing: 4px;
-	--server-container-padding: 10px;
+.theme-light {
+    --background-primary: #faf4ed;
+    --background-secondary: #fffaf3;
+    --background-tertiary: #f2e9de;
+    --background-accent: #d7827e;
+    --text-normal: #575279;
+    --text-spotify: #575279;
+    --text-muted: #6e6a86;
+    --text-link: #286983;
+    --background-floating: #f2e9de;
+    --header-primary: #575279;
+    --header-secondary: #575279;
+    --header-spotify: #56949f;
+    --interactive-normal: #575279;
+    --interactive-hover: #6e6a86;
+    --interactive-active: #575279;
 }
 
-.da-content>.da-sidebar{
-    transform:translateX(-6px);
-}
-.da-content>.da-sidebar+div{
-    z-index:1;
-    margin-left:-17px
+.panels-j1Uci_{
+    background-color: var(--background-secondary);
 }
 
+.textArea-12jD-V, .lookBlank-3eh9lL,  .threadSidebar-1o3BTy, .scrollableContainer-2NUZem {
+    background: var(--background-tertiary);
+}

@@ -14,6 +14,8 @@
     --interactive-normal: #e0def4;
     --interactive-hover: #c4a7e7;
     --interactive-active: #e0def4;
+    --ping: #eb6f92;
+    --brand-experiment: #31748f;
 }
 
 .theme-light {
@@ -32,6 +34,8 @@
     --interactive-normal: #575279;
     --interactive-hover: #6e6a86;
     --interactive-active: #575279;
+    --ping: #b4637a;
+    --brand-experiment: #286983;
 }
 
 .panels-j1Uci_{
@@ -39,5 +43,13 @@
 }
 
 .textArea-12jD-V, .lookBlank-3eh9lL,  .threadSidebar-1o3BTy, .scrollableContainer-2NUZem {
-    background: var(--background-tertiary);
+    background-color: var(--background-tertiary);
+}
+
+.numberBadge-2s8kKX, .base-PmTxvP, .baseShapeRound-1Mm1YW, .bar-30k2ka, .unreadMentionsBar-1Bu1dC, .mention-1f5kbO, .active-1SSsBb, .disableButton-220a9y {
+    background-color: var(--ping) !important;
+}
+
+.lookOutlined-3sRXeN.colorRed-1TFJan, .lookOutlined-3sRXeN.colorRed-1TFJan {
+    color: var(--ping) !important;
 }

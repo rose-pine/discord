@@ -1,6 +1,8 @@
 .theme-dark {
     --background-primary: #191724;
     --background-secondary: #1f1d2e;
+    --background-secondary-alt: #26233a;
+    --channeltextarea-background: #26233a;
     --background-tertiary: #26233a;
     --background-accent: #ebbcba;
     --text-normal: #e0def4;

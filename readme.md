@@ -31,4 +31,5 @@
 
 ## Thanks to 
 
-- [ThatOneCalculator](https://github.com/thatonecalculator)
+- [ThatOneCalculator](https://t1c.dev)
+- [noobfletcher1](https://github.com/noobfletcher1)

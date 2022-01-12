@@ -23,6 +23,8 @@
 .theme-light {
     --background-primary: #faf4ed;
     --background-secondary: #fffaf3;
+    --background-secondary-alt: #f2e9de;
+    --channeltextarea-background: #f2e9de;
     --background-tertiary: #f2e9de;
     --background-accent: #d7827e;
     --text-normal: #575279;

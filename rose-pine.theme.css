@@ -1,3 +1,15 @@
+/**
+* @name Rosé Pine
+* @author blueb
+* @authorId 403390454273409028
+* @version 3.0.9
+* @description All natural pine, faux fur and a bit of soho vibes for the classy minimalist.
+* @source https://github.com/blueb442/discord
+* @updateUrl https://github.com/blueb442/discord/blob/rose-pine.theme.css
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&display=swap');
+
 .theme-dark {
     --background-primary: #26233a;
     --background-secondary: #1f1d2e;

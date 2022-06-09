@@ -13,9 +13,9 @@
 
 ## Usage
 
-1. Install a client mod, such as [GooseMod](https://goosemod.com)
-2. Enable Custom CSS. This may have to be done manually, or it may come automatically depending on your mod.
-3. Go into settings, Custom CSS, and paste in the contents of `theme.css`
+1. Install a client mod, such as [BetterDiscord](https://goosemod.com)
+2. Download rose-pine.theme.css
+3. Go into settings, Themes, and drop the `rose-pine.theme.css` file into the folder.
 4. To switch between Rosé Pine and Rosé Pine Dawn, go to the Appearance tab in settings and change the theme from Dark to Light.
 
 ## Gallery

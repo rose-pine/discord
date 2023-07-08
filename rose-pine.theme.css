@@ -105,3 +105,11 @@ body {
 .layout-1qmrhw:hover, .content-1gYQeQ:hover {
     background-color: var(--background-modifier-selected)!important;
 }
+
+.container-3wLKDe {
+    background-color: var(--background-secondary) !important;
+}
+
+.title-31SJ6t {
+    background-color: var(--background-primary) !important;
+}

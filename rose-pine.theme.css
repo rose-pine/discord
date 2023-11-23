@@ -9,6 +9,13 @@
 */
 
 @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&display=swap');
+:root {
+--Chat-Font-Used: 'Fira Code', normal ;
+--Chat-Font-Size: 14px;
+}
+:not([class="hljs"]):not(code){
+font-family: var(--Chat-Font-Used)!important;
+}
 
 .theme-dark {
     --background-primary: #26233a;

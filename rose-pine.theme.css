@@ -12,9 +12,8 @@
 :root {
 --Chat-Font-Used: 'Fira Code', normal ;
 --Chat-Font-Size: 14px;
-}
-:not([class="hljs"]):not(code){
-font-family: var(--Chat-Font-Used)!important;
+
+    --font-display: --Chat-Font-Used;
 }
 
 .theme-dark {

@@ -13,7 +13,9 @@
 --Chat-Font-Used: 'Fira Code', monospace ;
 --Chat-Font-Size: 14px;
 
+    --font-primary: --Chat-Font-Used;
     --font-display: --Chat-Font-Used;
+    --font-code: --Chat-Font-Used;
 }
 
 .theme-dark {

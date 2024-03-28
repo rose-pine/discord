@@ -67,7 +67,7 @@
 }
 
 .title-17SveM, .name-3Uvkvr{
-    font-size: 14px;
+    font-size: var(--Chat-Font-Size);
 }
 
 .panels-3wFtMD {
@@ -75,7 +75,7 @@
 }
 
 .username-h_Y3Us {
-    font-size: 14px;
+    font-size: var(--Chat-Font-Size);
 }
 
 .peopleColumn-1wMU14, .panels-j1Uci_, .peopleColumn-29fq28, .peopleList-2VBrVI, .content-2hZxGK, .header-1zd7se, .root-g14mjS .small-23Atuv .fullscreenOnMobile-ixj0e3{

@@ -63,10 +63,6 @@ font-family: var(--Chat-Font-Used)!important;
     --interactive-active: #575279;
 }
 
-body {
-    --font-display: Fira Code;
-}
-
 .body-2wLx-E, .headerTop-3GPUSF, .bodyInnerWrapper-2bQs1k, .footer-3naVBw {
     background-color: var(--background-tertiary);
 }
@@ -80,7 +76,6 @@ body {
 }
 
 .username-h_Y3Us {
-    font-family: var(--font-display);
     font-size: 14px;
 }
 

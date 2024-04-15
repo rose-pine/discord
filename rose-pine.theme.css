@@ -8,13 +8,14 @@
 * @updateUrl https://github.com/rose-pine/discord/blob/rose-pine.theme.css
 */
 
-@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&display=swap');
 :root {
---Chat-Font-Used: 'Fira Code', normal ;
+--Chat-Font-Used: 'Fira Code', monospace ;
 --Chat-Font-Size: 14px;
-}
-:not([class="hljs"]):not(code){
-font-family: var(--Chat-Font-Used)!important;
+
+    --font-primary: --Chat-Font-Used;
+    --font-display: --Chat-Font-Used;
+    --font-code: --Chat-Font-Used;
 }
 
 .theme-dark {
@@ -63,16 +64,12 @@ font-family: var(--Chat-Font-Used)!important;
     --interactive-active: #575279;
 }
 
-body {
-    --font-display: Fira Code;
-}
-
 .body-2wLx-E, .headerTop-3GPUSF, .bodyInnerWrapper-2bQs1k, .footer-3naVBw {
     background-color: var(--background-tertiary);
 }
 
 .title-17SveM, .name-3Uvkvr{
-    font-size: 14px;
+    font-size: var(--Chat-Font-Size);
 }
 
 .panels-3wFtMD {
@@ -80,8 +77,7 @@ body {
 }
 
 .username-h_Y3Us {
-    font-family: var(--font-display);
-    font-size: 14px;
+    font-size: var(--Chat-Font-Size);
 }
 
 .peopleColumn-1wMU14, .panels-j1Uci_, .peopleColumn-29fq28, .peopleList-2VBrVI, .content-2hZxGK, .header-1zd7se, .root-g14mjS .small-23Atuv .fullscreenOnMobile-ixj0e3{

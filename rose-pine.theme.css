@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&display=swap');
-
 .theme-dark {
     --input-background: #1f1d2e;
     --bg-overlay-chat: #26233a;
@@ -63,26 +61,8 @@
     background-color: var(--background-secondary);
 }
 
-.avatar-2e8lTP.clickable-31pE3P {
-    border-style: solid !important;
-}
-
-.avatar-2e8lTP {
-    background-color: #2a273f !important;
-    border-style: solid !important;
-    border: var(--bg-overlay-3,var(--channeltextarea-background)) !important;
-}
-
-body {
-    --font-display: Fira Code;
-}
-
 .body-2wLx-E, .headerTop-3GPUSF, .bodyInnerWrapper-2bQs1k, .footer-3naVBw {
     background-color: var(--background-tertiary);
-}
-
-.title-17SveM, .name-3Uvkvr{
-    font-size: 14px;
 }
 
 .panels-3wFtMD {

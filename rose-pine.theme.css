@@ -13,9 +13,9 @@
 --Chat-Font-Used: 'Fira Code', monospace ;
 --Chat-Font-Size: 14px;
 
-    --font-primary: --Chat-Font-Used;
-    --font-display: --Chat-Font-Used;
-    --font-code: --Chat-Font-Used;
+    --font-primary: var(--Chat-Font-Used);
+    --font-display: var(--Chat-Font-Used);
+    --font-code: var(--Chat-Font-Used);
 }
 
 .theme-dark {
@@ -62,8 +62,4 @@
     --interactive-normal: #575279;
     --interactive-hover: #6e6a86;
     --interactive-active: #575279;
-}
-
-body {
-    --font-display: var(--Chat-Font-Used);
 }

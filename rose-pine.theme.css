@@ -13,9 +13,9 @@
 --Chat-Font-Used: 'Fira Code', monospace ;
 --Chat-Font-Size: 14px;
 
-    --font-primary: --Chat-Font-Used;
-    --font-display: --Chat-Font-Used;
-    --font-code: --Chat-Font-Used;
+    --font-primary: var(--Chat-Font-Used);
+    --font-display: var(--Chat-Font-Used);
+    --font-code: var(--Chat-Font-Used);
 }
 
 .theme-dark {
@@ -62,57 +62,4 @@
     --interactive-normal: #575279;
     --interactive-hover: #6e6a86;
     --interactive-active: #575279;
-}
-
-.body-2wLx-E, .headerTop-3GPUSF, .bodyInnerWrapper-2bQs1k, .footer-3naVBw {
-    background-color: var(--background-tertiary);
-}
-
-.title-17SveM, .name-3Uvkvr{
-    font-size: var(--Chat-Font-Size);
-}
-
-.panels-3wFtMD {
-    background-color: var(--background-secondary);
-}
-
-.username-h_Y3Us {
-    font-size: var(--Chat-Font-Size);
-}
-
-.peopleColumn-1wMU14, .panels-j1Uci_, .peopleColumn-29fq28, .peopleList-2VBrVI, .content-2hZxGK, .header-1zd7se, .root-g14mjS .small-23Atuv .fullscreenOnMobile-ixj0e3{
-    background-color: var(--background-secondary);
-}
-
-.textArea-12jD-V, .lookBlank-3eh9lL,  .threadSidebar-1o3BTy, .scrollableContainer-2NUZem, .perksModalContentWrapper-3RHugb, .theme-dark .footer-31IekZ, .theme-light .footer-31IekZ{
-    background-color: var(--background-tertiary);
-}
-
-.numberBadge-2s8kKX, .base-PmTxvP, .baseShapeRound-1Mm1YW, .bar-30k2ka, .unreadMentionsBar-1Bu1dC, .mention-1f5kbO, .active-1SSsBb, .disableButton-220a9y {
-    background-color: var(--ping) !important;
-}
-
-.lookOutlined-3sRXeN.colorRed-1TFJan, .lookOutlined-3sRXeN.colorRed-1TFJan {
-    color: var(--ping) !important;
-}
-
-.header-3OsQeK, .container-ZMc96U {
-    box-shadow: none!important;
-    border: none!important;
-}
-
-.content-1gYQeQ, .layout-1qmrhw, .inputDefault-3FGxgL, .input-2g-os5, .input-2z42oC, .role-2TIOKu, .searchBar-jGtisZ {
-    border-radius: 6px;
-}
-
-.layout-1qmrhw:hover, .content-1gYQeQ:hover {
-    background-color: var(--background-modifier-selected)!important;
-}
-
-.container-3wLKDe {
-    background-color: var(--background-secondary) !important;
-}
-
-.title-31SJ6t {
-    background-color: var(--background-primary) !important;
 }

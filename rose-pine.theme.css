@@ -1,3 +1,23 @@
+/**
+* @name Rosé Pine
+* @author blueb/Papa Quill
+* @authorId 403390454273409028
+* @version 3.0.9
+* @description All natural pine, faux fur and a bit of soho vibes for the classy minimalist.
+* @source https://github.com/rose-pine/discord
+* @updateUrl https://github.com/rose-pine/discord/blob/rose-pine.theme.css
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&display=swap');
+:root {
+--Chat-Font-Used: 'Fira Code', monospace ;
+--Chat-Font-Size: 14px;
+
+    --font-primary: var(--Chat-Font-Used);
+    --font-display: var(--Chat-Font-Used);
+    --font-code: var(--Chat-Font-Used);
+}
+
 .theme-dark {
     --input-background: #1f1d2e;
     --bg-overlay-chat: #26233a;

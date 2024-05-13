@@ -7,17 +7,6 @@
 * @source https://github.com/rose-pine/discord
 * @updateUrl https://github.com/rose-pine/discord/blob/rose-pine.theme.css
 */
-
-@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&display=swap');
-:root {
---Chat-Font-Used: 'Fira Code', monospace ;
---Chat-Font-Size: 12px;
-
-    --font-primary: var(--Chat-Font-Used);
-    --font-display: var(--Chat-Font-Used);
-    --font-code: var(--Chat-Font-Used);
-}
-
 .theme-dark {
     --input-background: #1f1d2e;
     --bg-overlay-chat: #26233a;

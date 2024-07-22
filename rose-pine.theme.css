@@ -22,6 +22,7 @@
 	--background-mentioned: #6e6af633;
 	--background-mentioned-hover: #6e6af622;
 	--info-warning-foreground: #6e6af6;
+	--bg-surface-overlay: #26233a;
 	--background-primary: #26233a;
 	--background-secondary: #1f1d2e;
 	--background-secondary-alt: #26233a;
@@ -47,6 +48,7 @@
 }
 
 .theme-light {
+	--bg-surface-overlay: #faf4ed;
 	--background-primary: #faf4ed;
 	--background-secondary: #fffaf3;
 	--background-secondary-alt: #f2e9de;

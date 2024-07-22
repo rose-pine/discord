@@ -18,6 +18,8 @@
 	--bg-mod-faint: #6e6af622;
 	--card-secondary-bg: #00000060;
 	--deprecated-card-bg: #1f1d2e;
+	--deprecated-card-editable-bg: #1f1d2e;
+	--activity-card-background: #26233a;
 	--background-message-highlight: #6e6af633;
 	--background-message-highlight-hover: #6e6af622;
 	--background-mentioned: #6e6af633;
@@ -54,6 +56,8 @@
 	--modal-footer-background: #f2e9e1;
 	--channeltextarea-background: #f2e9de;
 	--deprecated-card-bg: #fffaf3;
+	--deprecated-card-editable-bg: #fffaf3;
+	--activity-card-background: #f2e9e1;
 	--background-tertiary: #f2e9de;
 	--background-accent: #d7827e;
 	--text-normal: #575279;

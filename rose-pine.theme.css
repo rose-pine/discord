@@ -12,6 +12,7 @@
 	--input-background: #1f1d2e;
 	--bg-overlay-chat: #26233a;
 	--home-background: #26233a;
+	--modal-background: #26233a;
 	--modal-footer-background: #26233a;
 	--primary-600: #26233a;
 	--bg-mod-faint: #6e6af622;
@@ -49,6 +50,8 @@
 	--background-primary: #faf4ed;
 	--background-secondary: #fffaf3;
 	--background-secondary-alt: #f2e9de;
+	--modal-background: #f2e9e1;
+	--modal-footer-background: #f2e9e1;
 	--channeltextarea-background: #f2e9de;
 	--deprecated-card-bg: #fffaf3;
 	--background-tertiary: #f2e9de;

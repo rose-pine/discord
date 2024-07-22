@@ -41,10 +41,7 @@
 	--interactive-active: #e0def4;
 	--ping: #eb6f92;
 	--background-modifier-selected: #26233ab4;
-	--scrollbar-thin-thumb: #191724;
-	--scrollbar-thin-track: transparent;
-	--scrollbar-auto-thumb: #191724;
-	--scrollbar-auto-track: transparent;
+	--scrollbar-color: #26233a #191724;
 }
 
 .theme-light {
@@ -67,6 +64,7 @@
 	--interactive-normal: #575279;
 	--interactive-hover: #6e6a86;
 	--interactive-active: #575279;
+	--scrollbar-color: #f2e9e1 #faf4ed;
 }
 
 .mainCard__0ec2c {
@@ -86,6 +84,7 @@
 .peopleColumn-29fq28,
 .peopleList-2VBrVI,
 .content-2hZxGK,
+.scrollerBase_eed6a8,
 .header-1zd7se,
 .root-g14mjS .small-23Atuv .fullscreenOnMobile-ixj0e3 {
 	background-color: var(--background-secondary) !important;
@@ -135,4 +134,9 @@
 .layout-1qmrhw:hover,
 .content-1gYQeQ:hover {
 	background-color: var(--background-modifier-selected) !important;
+}
+
+.scrollerBase_eed6a8,
+.scrollerBase_c49869 {
+	scrollbar-color: var(--scrollbar-color) !important;
 }

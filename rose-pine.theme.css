@@ -9,13 +9,16 @@
 */
 
 .theme-dark {
+	--menu-item-default-hover-bg: #191724;
+	--menu-item-default-active-bg: #26233a;
 	--button-secondary-background: #1f1d2e;
 	--button-secondary-background-hover: #191724;
 	--ping: #eb6f92;
 	--input-background: #26233a;
 	--home-background: #191724;
-	--background-modifier-hover: #26233a;
+	--background-modifier-hover: #403d52;
 	--background-modifier-selected: #26233a;
+	--background-modifier-active: #26233a;
 	--bg-mod-faint: #1f1d2e;
 	--bg-surface-raised: #1f1d2e;
 	--background-message-highlight: #907aa933;
@@ -27,7 +30,7 @@
 	--background-primary: #191724;
 	--background-secondary: #1f1d2e;
 	--background-secondary-alt: #26233a;
-	--modal-background: #26233a;
+	--modal-background: #1f1d2e;
 	--modal-footer-background: #26233a;
 	--channeltextarea-background: #1f1d2e;
 	--deprecated-card-bg: #1f1d2e;
@@ -53,13 +56,16 @@
 }
 
 .theme-light {
+	--menu-item-default-hover-bg: #faf4ed;
+	--menu-item-default-active-bg: #f2e9e1;
 	--button-secondary-background: #fffaf3;
 	--button-secondary-background-hover: #faf4ed;
 	--ping: #b4637a;
 	--input-background: #f2e9e1;
 	--home-background: #faf4ed;
-	--background-modifier-hover: #f2e9e1;
+	--background-modifier-hover: #dfdad9;
 	--background-modifier-selected: #f2e9e1;
+	--background-modifier-active: #f2e9e1;
 	--bg-mod-faint: #fffaf3;
 	--bg-surface-raised: #fffaf3;
 	--background-message-highlight: #c4a7e733;
@@ -71,7 +77,7 @@
 	--background-primary: #faf4ed;
 	--background-secondary: #fffaf3;
 	--background-secondary-alt: #f2e9de;
-	--modal-background: #f2e9e1;
+	--modal-background: #fffaf3;
 	--modal-footer-background: #f2e9e1;
 	--channeltextarea-background: #fffaf3;
 	--deprecated-card-bg: #fffaf3;
@@ -160,7 +166,8 @@
 }
 
 .layout-1qmrhw:hover,
-.content-1gYQeQ:hover {
+.content-1gYQeQ:hover,
+.friendSelected_ebf869 {
 	background-color: var(--background-modifier-selected) !important;
 }
 
@@ -169,15 +176,23 @@
 	background-color: inherit !important;
 }
 
-/* .searchBarComponent_f0963d {
-	background-color: var(--background-primary) !important;
-} */
-
 .container_e5a42d {
 	background: unset !important;
 	border: unset !important;
 }
 
+.custom-profile-theme .colorPrimary_dd4f85 {
+	color: var(--white) !important;
+}
+
 .lookFilled_dd4f85.colorPrimary_dd4f85 {
+	color: var(--text-normal);
+}
+
+.colorDefault_d90b3d {
+	color: var(--text-normal) !important;
+}
+
+.colorDefault_d90b3d.focused_d90b3d .subtext_d90b3d {
 	color: var(--text-normal) !important;
 }

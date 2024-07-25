@@ -33,7 +33,7 @@
 	--deprecated-card-bg: #1f1d2e;
 	--deprecated-card-editable-bg: #1f1d2e;
 	--activity-card-background: #26233a;
-	--background-tertiary: #191724;
+	--background-tertiary: #26233a;
 	--background-accent: #ebbcba;
 	--text-normal: #e0def4;
 	--text-spotify: #e0def4;
@@ -77,7 +77,7 @@
 	--deprecated-card-bg: #fffaf3;
 	--deprecated-card-editable-bg: #fffaf3;
 	--activity-card-background: #f2e9e1;
-	--background-tertiary: #faf4ed;
+	--background-tertiary: #f2e9e1;
 	--background-accent: #d7827e;
 	--text-normal: #575279;
 	--text-spotify: #575279;
@@ -169,9 +169,9 @@
 	background-color: inherit !important;
 }
 
-.searchBarComponent_f0963d {
+/* .searchBarComponent_f0963d {
 	background-color: var(--background-primary) !important;
-}
+} */
 
 .container_e5a42d {
 	background: unset !important;

@@ -1,0 +1,198 @@
+/**
+* @name Rosé Pine Moon
+* @author 3nfg/HuCares_
+* @authorId 637120137828237322
+* @version 4.0.0
+* @description All natural pine, faux fur and a bit of soho vibes for the classy minimalist.
+* @source https://github.com/rose-pine/discord
+* @updateUrl https://github.com/rose-pine/discord/blob/rose-pine-moon.theme.css
+*/
+
+.theme-dark {
+	--menu-item-default-hover-bg: #232136;
+	--menu-item-default-active-bg: #393552;
+	--button-secondary-background: #2a273f;
+	--button-secondary-background-hover: #232136;
+	--ping: #eb6f92;
+	--input-background: #393552;
+	--home-background: #232136;
+	--background-modifier-hover: #44415a;
+	--background-modifier-selected: #393552;
+	--background-modifier-active: #393552;
+	--bg-mod-faint: #2a273f;
+	--bg-surface-raised: #2a273f;
+	--background-message-highlight: #907aa933;
+	--background-message-highlight-hover: #907aa922;
+	--background-mentioned: #907aa933;
+	--background-mentioned-hover: #907aa922;
+	--info-warning-foreground: #907aa9;
+	--bg-surface-overlay: #393552;
+	--background-primary: #232136;
+	--background-secondary: #2a273f;
+	--background-secondary-alt: #393552;
+	--modal-background: #2a273f;
+	--modal-footer-background: #393552;
+	--channeltextarea-background: #2a273f;
+	--deprecated-card-bg: #2a273f;
+	--deprecated-card-editable-bg: #2a273f;
+	--activity-card-background: #393552;
+	--background-tertiary: #393552;
+	--background-accent: #ea9a97;
+	--text-normal: #e0def4;
+	--text-spotify: #e0def4;
+	--text-muted: #6e6a86;
+	--text-link: #3e8fb0;
+	--background-floating: #2a273f;
+	--header-primary: #e0def4;
+	--header-secondary: #e0def4;
+	--header-spotify: #9ccfd8;
+	--interactive-normal: #e0def4;
+	--interactive-hover: #6e6a86;
+	--interactive-active: #e0def4;
+	--scrollbar-thin-thumb: #393552;
+	--scrollbar-thin-track: transparent;
+	--scrollbar-auto-thumb: #393552;
+	--scrollbar-auto-track: transparent;
+}
+
+.theme-light {
+	--menu-item-default-hover-bg: #faf4ed;
+	--menu-item-default-active-bg: #f2e9e1;
+	--button-secondary-background: #fffaf3;
+	--button-secondary-background-hover: #faf4ed;
+	--ping: #b4637a;
+	--input-background: #f2e9e1;
+	--home-background: #faf4ed;
+	--background-modifier-hover: #dfdad9;
+	--background-modifier-selected: #f2e9e1;
+	--background-modifier-active: #f2e9e1;
+	--bg-mod-faint: #fffaf3;
+	--bg-surface-raised: #fffaf3;
+	--background-message-highlight: #c4a7e733;
+	--background-message-highlight-hover: #c4a7e722;
+	--background-mentioned: #c4a7e733;
+	--background-mentioned-hover: #c4a7e722;
+	--info-warning-foreground: #c4a7e7;
+	--bg-surface-overlay: #f2e9e1;
+	--background-primary: #faf4ed;
+	--background-secondary: #fffaf3;
+	--background-secondary-alt: #f2e9de;
+	--modal-background: #fffaf3;
+	--modal-footer-background: #f2e9e1;
+	--channeltextarea-background: #fffaf3;
+	--deprecated-card-bg: #fffaf3;
+	--deprecated-card-editable-bg: #fffaf3;
+	--activity-card-background: #f2e9e1;
+	--background-tertiary: #f2e9e1;
+	--background-accent: #d7827e;
+	--text-normal: #575279;
+	--text-spotify: #575279;
+	--text-muted: #9893a5;
+	--text-link: #286983;
+	--background-floating: #fffaf3;
+	--header-primary: #575279;
+	--header-secondary: #575279;
+	--header-spotify: #56949f;
+	--interactive-normal: #575279;
+	--interactive-hover: #9893a5;
+	--interactive-active: #575279;
+	--scrollbar-thin-thumb: #f2e9e1;
+	--scrollbar-thin-track: transparent;
+	--scrollbar-auto-thumb: #f2e9e1;
+	--scrollbar-auto-track: transparent;
+}
+
+.mainCard__0ec2c {
+	background-color: var(--background-secondary) !important;
+}
+
+.body-2wLx-E,
+.headerTop-3GPUSF,
+.bodyInnerWrapper-2bQs1k,
+.footer-3naVBw,
+.panels-3wFtMD {
+	background-color: var(--background-tertiary) !important;
+}
+
+.peopleColumn-1wMU14,
+.panels-j1Uci_,
+.peopleColumn-29fq28,
+.peopleList-2VBrVI,
+.content-2hZxGK,
+.header-1zd7se,
+.root-g14mjS .small-23Atuv .fullscreenOnMobile-ixj0e3 {
+	background-color: var(--background-secondary) !important;
+}
+
+.textArea-12jD-V,
+.lookBlank-3eh9lL,
+.threadSidebar-1o3BTy,
+.scrollableContainer-2NUZem,
+.perksModalContentWrapper-3RHugb,
+.theme-dark .footer-31IekZ,
+.theme-light .footer-31IekZ {
+	background-color: var(--background-tertiary) !important;
+}
+
+.numberBadge-2s8kKX,
+.base-PmTxvP,
+.baseShapeRound-1Mm1YW,
+.bar-30k2ka,
+.unreadMentionsBar-1Bu1dC,
+.mention-1f5kbO,
+.active-1SSsBb,
+.disableButton-220a9y {
+	background-color: var(--ping) !important;
+}
+
+.lookOutlined-3sRXeN.colorRed-1TFJan {
+	color: var(--ping) !important;
+}
+
+.header-3OsQeK,
+.container-ZMc96U {
+	box-shadow: none !important;
+	border: none !important;
+}
+
+.content-1gYQeQ,
+.layout-1qmrhw,
+.inputDefault-3FGxgL,
+.input-2g-os5,
+.input-2z42oC,
+.role-2TIOKu,
+.searchBar-jGtisZ {
+	border-radius: 6px !important;
+}
+
+.layout-1qmrhw:hover,
+.content-1gYQeQ:hover,
+.friendSelected_ebf869 {
+	background-color: var(--background-modifier-selected) !important;
+}
+
+.panels_a4d4d9,
+.container_b2ca13 {
+	background-color: inherit !important;
+}
+
+.container_e5a42d {
+	background: unset !important;
+	border: unset !important;
+}
+
+.custom-profile-theme .colorPrimary_dd4f85 {
+	color: var(--white) !important;
+}
+
+.lookFilled_dd4f85.colorPrimary_dd4f85 {
+	color: var(--text-normal);
+}
+
+.colorDefault_d90b3d {
+	color: var(--text-normal) !important;
+}
+
+.colorDefault_d90b3d.focused_d90b3d .subtext_d90b3d {
+	color: var(--text-normal) !important;
+}

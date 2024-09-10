@@ -20,20 +20,19 @@
 
 ## Gallery
 
-#### Rosé Pine
+**Rosé Pine**
 
-![Screenshot_2021-11-20-05-31-48_2560x1440](https://user-images.githubusercontent.com/44733677/142745821-a08720dd-d9b1-460d-bc27-acd680e673d8.png)
+![Rosé Pine for Discord](https://user-images.githubusercontent.com/44733677/142745821-a08720dd-d9b1-460d-bc27-acd680e673d8.png)
 
-#### Rosé Pine Dawn
+**Rosé Pine Moon**
 
-![Screenshot_2021-11-20-05-32-42_2560x1440](https://user-images.githubusercontent.com/44733677/142745835-896dbdd2-c21b-49bb-9a34-d30dd174749a.png)
+![Rosé Pine Moon for Discord](https://github.com/user-attachments/assets/b929ba35-b17a-4890-809c-d68c5f0fa61c)
 
-#### Rosé Pine Moon
-![image](https://github.com/user-attachments/assets/b929ba35-b17a-4890-809c-d68c5f0fa61c)
+**Rosé Pine Dawn**
 
+![Rosé Pine Dawn for Discord](https://user-images.githubusercontent.com/44733677/142745835-896dbdd2-c21b-49bb-9a34-d30dd174749a.png)
 
-
-## Thanks to 
+## Thanks to
 
 - [ThatOneCalculator](https://t1c.dev)
 - [noobfletcher1](https://github.com/noobfletcher1)

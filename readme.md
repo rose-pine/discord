@@ -13,11 +13,10 @@
 
 ## Usage
 
-1. Install a client mod, such as [BetterDiscord](https://betterdiscord.app)
-
 > [!NOTE]
-> alternatively use discord [stylus](https://userstyles.world/style/18964/rose-pine)
+> For Discord web, see our [userstyle](https://userstyles.world/style/18964/rose-pine)
 
+1. Install a client mod, such as [BetterDiscord](https://betterdiscord.app)
 2. Download rose-pine.theme.css
 3. Go into settings, Themes, and drop the `rose-pine.theme.css` file into the folder.
 4. To switch between Rosé Pine and Rosé Pine Dawn, go to the Appearance tab in settings and change the theme from Dark to Light.

@@ -26,6 +26,12 @@
 	--background-mentioned: #907aa933;
 	--background-mentioned-hover: #907aa922;
 	--info-warning-foreground: #907aa9;
+    --deprecated-text-input-bg: #393552;
+    --autocomplete-bg: #2a273f;
+    --bg-overlay-chat: #232136;
+    --background-nested-floating: #393552;
+    --background-modifier-accent: #2a273f;
+    --card-primary-bg: #393552;
 	--bg-surface-overlay: #393552;
 	--background-primary: #232136;
 	--background-secondary: #2a273f;
@@ -73,6 +79,12 @@
 	--background-mentioned: #c4a7e733;
 	--background-mentioned-hover: #c4a7e722;
 	--info-warning-foreground: #c4a7e7;
+    --deprecated-text-input-bg: #f2e9e1;
+    --autocomplete-bg: #fffaf3;
+    --bg-overlay-chat: #faf4ed;
+    --background-nested-floating: #f2e9e1;
+    --background-modifier-accent: #fffaf3;
+    --card-primary-bg: #f2e9e1;
 	--bg-surface-overlay: #f2e9e1;
 	--background-primary: #faf4ed;
 	--background-secondary: #fffaf3;
@@ -102,7 +114,8 @@
 	--scrollbar-auto-track: transparent;
 }
 
-.mainCard__0ec2c {
+.mainCard__0ec2c,
+.contentWrapper__9c62c {
 	background-color: var(--background-secondary) !important;
 }
 

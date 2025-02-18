@@ -266,5 +266,5 @@
 }
 
 .muted__29444 .overflow__82b15 {
-    color:var(--background-modifier-hover)
+    color: var(--background-modifier-hover) !important;
 }

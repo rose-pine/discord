@@ -1,211 +1,270 @@
 /**
 * @name Rosé Pine Moon
-* @author 3nfg/HuCares_
-* @authorId 637120137828237322
-* @version 4.0.0
+* @author blueb/Papa Quill
+* @authorId 403390454273409028
+* @version 4.1.0
 * @description All natural pine, faux fur and a bit of soho vibes for the classy minimalist.
 * @source https://github.com/rose-pine/discord
-* @updateUrl https://github.com/rose-pine/discord/blob/rose-pine-moon.theme.css
+* @updateUrl https://github.com/rose-pine/discord/blob/rose-pine.theme.css
 */
 
+:root {
+    --base: #232136;
+    --surface: #2a273f;
+    --overlay: #393552;
+    --muted: #6e6a86;
+    --subtle: #908caa;
+    --text: #e0def4;
+    --love: #eb6f92;
+    --gold: #f6c177;
+    --rose: #ea9a97;
+    --pine: #3e8fb0;
+    --foam: #9ccfd8;
+    --iris: #c4a7e7;
+    --highlightLow: #2a283e;
+    --highlightMed: #44415a;
+    --highlightHigh: #56526e;
+
+    --dawn-base: #faf4ed;
+    --dawn-surface: #fffaf3;
+    --dawn-overlay: #f2e9e1;
+    --dawn-muted: #9893a5;
+    --dawn-subtle: #797593;
+    --dawn-text: #575279;
+    --dawn-love: #b4637a;
+    --dawn-gold: #ea9d34;
+    --dawn-rose: #d7827e;
+    --dawn-pine: #286983;
+    --dawn-foam: #56949f;
+    --dawn-iris: #907aa9;
+    --dawn-highlightLow: #f4ede8;
+    --dawn-highlightMed: #dfdad9;
+    --dawn-highlightHigh: #cecacd;
+}
+
 .theme-dark {
-	--menu-item-default-hover-bg: #232136;
-	--menu-item-default-active-bg: #393552;
-	--button-secondary-background: #2a273f;
-	--button-secondary-background-hover: #232136;
-	--ping: #eb6f92;
-	--input-background: #393552;
-	--home-background: #232136;
-	--background-modifier-hover: #44415a;
-	--background-modifier-selected: #393552;
-	--background-modifier-active: #393552;
-	--bg-mod-faint: #2a273f;
-	--bg-surface-raised: #2a273f;
-	--background-message-highlight: #907aa933;
-	--background-message-highlight-hover: #907aa922;
-	--background-mentioned: #907aa933;
-	--background-mentioned-hover: #907aa922;
-	--info-warning-foreground: #907aa9;
-    --deprecated-text-input-bg: #393552;
-    --autocomplete-bg: #2a273f;
-    --bg-overlay-chat: #232136;
-    --background-nested-floating: #393552;
-    --background-modifier-accent: #2a273f;
-    --card-primary-bg: #393552;
-	--bg-surface-overlay: #393552;
-	--background-primary: #232136;
-	--background-secondary: #2a273f;
-	--background-secondary-alt: #393552;
-	--modal-background: #2a273f;
-	--modal-footer-background: #393552;
-	--channeltextarea-background: #2a273f;
-	--deprecated-card-bg: #2a273f;
-	--deprecated-card-editable-bg: #2a273f;
-	--activity-card-background: #393552;
-	--background-tertiary: #393552;
-	--background-accent: #ea9a97;
-	--text-normal: #e0def4;
-	--text-spotify: #e0def4;
-	--text-muted: #6e6a86;
-	--text-link: #3e8fb0;
-	--background-floating: #2a273f;
-	--header-primary: #e0def4;
-	--header-secondary: #e0def4;
-	--header-spotify: #9ccfd8;
-	--interactive-normal: #e0def4;
-	--interactive-hover: #6e6a86;
-	--interactive-active: #e0def4;
-	--scrollbar-thin-thumb: #393552;
-	--scrollbar-thin-track: transparent;
-	--scrollbar-auto-thumb: #393552;
-	--scrollbar-auto-track: transparent;
+    --menu-item-default-hover-bg: var(--base);
+    --button-secondary-background-hover: var(--base);
+    --home-background: var(--base);
+    --bg-overlay-chat: var(--base);
+    --background-primary: var(--base);
+    --background-mobile-primary: var(--base);
+    --primary-800: var(--base);
+
+    --button-secondary-background: var(--surface);
+    --button-secondary-background-active: color-mix(in srgb, var(--surface) 80%, transparent);
+    --bg-mod-faint: var(--surface);
+    --bg-surface-raised: var(--surface);
+    --autocomplete-bg: var(--surface);
+    --background-secondary: var(--surface);
+    --modal-background: var(--surface);
+    --channeltextarea-background: var(--surface);
+    --deprecated-card-bg: var(--surface);
+    --deprecated-card-editable-bg: var(--surface);
+    --card-secondary-bg: var(--surface);
+    --background-floating: var(--surface);
+    --primary-700: var(--surface);
+    --bg-base-secondary: var(--surface);
+
+    --menu-item-default-active-bg: var(--overlay);
+    --activity-card-background: var(--overlay);
+    --deprecated-text-input-bg: var(--overlay);
+    --background-modifier-selected: var(--overlay);
+    --background-modifier-active: var(--overlay);
+    --background-nested-floating: var(--overlay);
+    --bg-surface-overlay: var(--overlay);
+    --background-secondary-alt: var(--overlay);
+    --modal-footer-background: var(--overlay);
+    --card-primary-bg: var(--overlay);
+    --background-tertiary: var(--overlay);
+    --interactive-muted: var(--overlay);
+    --scrollbar-thin-thumb: var(--overlay);
+    --scrollbar-auto-thumb: var(--overlay);
+    --primary-600: var(--overlay);
+    --bg-mod-subtle: var(--overlay);
+
+    --text-muted: var(--muted);
+    --interactive-hover: var(--muted);
+    --primary-400: var(--muted);
+
+    --background-message-highlight: color-mix(in srgb, var(--subtle) 15%, transparent);
+    --clr-subtle: var(--subtle);
+
+    --text-normal: var(--text);
+    --text-spotify: var(--text);
+    --header-primary: var(--text);
+    --header-secondary: var(--text);
+    --interactive-normal: var(--text);
+    --interactive-active: var(--text);
+
+    --ping: var(--love);
+    --background-accent: var(--love);
+    --button-filled-brand-background: var(--love);
+    --button-filled-brand-background-hover: color-mix(in srgb, var(--love) 60%, transparent);
+    --control-brand-foreground-new: var(--love);
+    --brand-500: var(--love);
+    --brand-400: var(--love);
+    --control-brand-foreground: var(--love);
+    --text-brand: var(--love);
+    --info-warning-background: color-mix(in srgb, var(--love) 10%, transparent);
+    --status-danger: var(--love);
+    --button-danger-background-hover: var(--love);
+
+    --background-mentioned: color-mix(in srgb, var(--gold) 10%, transparent);
+    --background-mentioned-hover: color-mix(in srgb, var(--gold) 20%, transparent);
+    --info-warning-foreground: var(--gold);
+
+    /* all variables using --rose would go here, but there are none */
+
+    --text-link: var(--pine);
+
+    --header-spotify: var(--foam);
+
+    /* all variables using --highlightLow would go here, but there are none */
+
+    --background-modifier-hover: var(--highlightMed);
+    --button-secondary-background-disabled: var(--highlightMed);
+
+    --background-modifier-accent: var(--highlightHigh);
+
+    /* misc */
+    --scrollbar-thin-track: transparent;
+    --scrollbar-auto-track: transparent;
 }
 
 .theme-light {
-	--menu-item-default-hover-bg: #faf4ed;
-	--menu-item-default-active-bg: #f2e9e1;
-	--button-secondary-background: #fffaf3;
-	--button-secondary-background-hover: #faf4ed;
-	--ping: #b4637a;
-	--input-background: #f2e9e1;
-	--home-background: #faf4ed;
-	--background-modifier-hover: #dfdad9;
-	--background-modifier-selected: #f2e9e1;
-	--background-modifier-active: #f2e9e1;
-	--bg-mod-faint: #fffaf3;
-	--bg-surface-raised: #fffaf3;
-	--background-message-highlight: #c4a7e733;
-	--background-message-highlight-hover: #c4a7e722;
-	--background-mentioned: #c4a7e733;
-	--background-mentioned-hover: #c4a7e722;
-	--info-warning-foreground: #c4a7e7;
-    --deprecated-text-input-bg: #f2e9e1;
-    --autocomplete-bg: #fffaf3;
-    --bg-overlay-chat: #faf4ed;
-    --background-nested-floating: #f2e9e1;
-    --background-modifier-accent: #fffaf3;
-    --card-primary-bg: #f2e9e1;
-	--bg-surface-overlay: #f2e9e1;
-	--background-primary: #faf4ed;
-	--background-secondary: #fffaf3;
-	--background-secondary-alt: #f2e9de;
-	--modal-background: #fffaf3;
-	--modal-footer-background: #f2e9e1;
-	--channeltextarea-background: #fffaf3;
-	--deprecated-card-bg: #fffaf3;
-	--deprecated-card-editable-bg: #fffaf3;
-	--activity-card-background: #f2e9e1;
-	--background-tertiary: #f2e9e1;
-	--background-accent: #d7827e;
-	--text-normal: #575279;
-	--text-spotify: #575279;
-	--text-muted: #9893a5;
-	--text-link: #286983;
-	--background-floating: #fffaf3;
-	--header-primary: #575279;
-	--header-secondary: #575279;
-	--header-spotify: #56949f;
-	--interactive-normal: #575279;
-	--interactive-hover: #9893a5;
-	--interactive-active: #575279;
-	--scrollbar-thin-thumb: #f2e9e1;
-	--scrollbar-thin-track: transparent;
-	--scrollbar-auto-thumb: #f2e9e1;
-	--scrollbar-auto-track: transparent;
+    --menu-item-default-hover-bg: var(--dawn-base);
+    --button-secondary-background-hover: var(--dawn-base);
+    --home-background: var(--dawn-base);
+    --bg-overlay-chat: var(--dawn-base);
+    --background-primary: var(--dawn-base);
+    --background-mobile-primary: var(--dawn-base);
+    --primary-800: var(--dawn-base);
+
+    --button-secondary-background: var(--dawn-surface);
+    --button-secondary-background-active: color-mix(in srgb, var(--dawn-surface) 80%, transparent);
+    --bg-mod-faint: var(--dawn-surface);
+    --bg-surface-raised: var(--dawn-surface);
+    --autocomplete-bg: var(--dawn-surface);
+    --background-secondary: var(--dawn-surface);
+    --modal-background: var(--dawn-surface);
+    --channeltextarea-background: var(--dawn-surface);
+    --deprecated-card-bg: var(--dawn-surface);
+    --deprecated-card-editable-bg: var(--dawn-surface);
+    --card-secondary-bg: var(--dawn-surface);
+    --background-floating: var(--dawn-surface);
+    --primary-700: var(--dawn-surface);
+    --bg-base-secondary: var(--dawn-surface);
+
+    --menu-item-default-active-bg: var(--dawn-overlay);
+    --activity-card-background: var(--dawn-overlay);
+    --deprecated-text-input-bg: var(--dawn-overlay);
+    --background-modifier-selected: var(--dawn-overlay);
+    --background-modifier-active: var(--dawn-overlay);
+    --background-nested-floating: var(--dawn-overlay);
+    --bg-surface-overlay: var(--dawn-overlay);
+    --background-secondary-alt: var(--dawn-overlay);
+    --modal-footer-background: var(--dawn-overlay);
+    --card-primary-bg: var(--dawn-overlay);
+    --background-tertiary: var(--dawn-overlay);
+    --interactive-muted: var(--dawn-overlay);
+    --scrollbar-thin-thumb: var(--dawn-overlay);
+    --scrollbar-auto-thumb: var(--dawn-overlay);
+    --primary-600: var(--dawn-overlay);
+    --bg-mod-subtle: var(--dawn-overlay);
+
+    --text-muted: var(--dawn-muted);
+    --interactive-hover: var(--dawn-muted);
+    --primary-400: var(--dawn-muted);
+
+    --background-message-highlight: color-mix(in srgb, var(--dawn-subtle) 15%, transparent);
+    --clr-subtle: var(--dawn-subtle);
+
+    --text-normal: var(--dawn-text);
+    --text-spotify: var(--dawn-text);
+    --header-primary: var(--dawn-text);
+    --header-secondary: var(--dawn-text);
+    --interactive-normal: var(--dawn-text);
+    --interactive-active: var(--dawn-text);
+
+    --ping: var(--dawn-love);
+    --background-accent: var(--dawn-love);
+    --button-filled-brand-background: var(--dawn-love);
+    --button-filled-brand-background-hover: color-mix(in srgb, var(--dawn-love) 60%, transparent);
+    --control-brand-foreground-new: var(--dawn-love);
+    --brand-500: var(--dawn-love);
+    --brand-400: var(--dawn-love);
+    --control-brand-foreground: var(--dawn-love);
+    --text-brand: var(--dawn-love);
+    --info-warning-background: color-mix(in srgb, var(--dawn-love) 10%, transparent);
+    --status-danger: var(--dawn-love);
+    --button-danger-background-hover: var(--dawn-love);
+
+    --background-mentioned: color-mix(in srgb, var(--dawn-gold) 10%, transparent);
+    --background-mentioned-hover: color-mix(in srgb, var(--dawn-gold) 20%, transparent);
+    --info-warning-foreground: var(--dawn-gold);
+
+    /* all variables using --rose would go here, but there are none */
+
+    --text-link: var(--dawn-pine);
+
+    --header-spotify: var(--dawn-foam);
+
+    /* all variables using --highlightLow would go here, but there are none */
+
+    --background-modifier-hover: var(--dawn-highlightMed);
+    --button-secondary-background-disabled: var(--dawn-highlightMed);
+
+    --background-modifier-accent: var(--dawn-highlightHigh);
+
+    /* misc */
+    --scrollbar-thin-track: transparent;
+    --scrollbar-auto-track: transparent;
 }
 
-.mainCard__0ec2c,
-.contentWrapper__9c62c {
-	background-color: var(--background-secondary) !important;
+.container__87bf1,
+.container__87bf1 > .slider__87bf1 > svg > path,
+.lookFilled__3f413.select__3f413,
+.list__920b8,
+.mainLoginContainer__86e92 .input__0f084,
+.container_d97f89,
+.name_ac72c6 .input__0f084,
+.mainTableContainer__09a38,
+.container_cb32c7:has(> div > .appDetailsContainer_cb32c7),
+.copyInput_fffc15 {
+    background-color: var(--background-tertiary) !important;
+    fill: var(--background-tertiary) !important;
 }
 
-.body-2wLx-E,
-.headerTop-3GPUSF,
-.bodyInnerWrapper-2bQs1k,
-.footer-3naVBw,
-.panels-3wFtMD {
-	background-color: var(--background-tertiary) !important;
+.replying__5126c:before {
+    background-color: var(--clr-subtle) !important;
 }
 
-.peopleColumn-1wMU14,
-.panels-j1Uci_,
-.peopleColumn-29fq28,
-.peopleList-2VBrVI,
-.content-2hZxGK,
-.header-1zd7se,
-.root-g14mjS .small-23Atuv .fullscreenOnMobile-ixj0e3 {
-	background-color: var(--background-secondary) !important;
+.replying__5126c:hover {
+    background-color: color-mix(in srgb, var(--clr-subtle) 25%, transparent) !important;
 }
 
-.textArea-12jD-V,
-.lookBlank-3eh9lL,
-.threadSidebar-1o3BTy,
-.scrollableContainer-2NUZem,
-.perksModalContentWrapper-3RHugb,
-.theme-dark .footer-31IekZ,
-.theme-light .footer-31IekZ {
-	background-color: var(--background-tertiary) !important;
+.itemFilled__001a7,
+.container_cb32c7:has(> div > .appDetailsContainer_cb32c7):hover {
+    background-color: var(--background-primary) !important;
 }
 
-.numberBadge-2s8kKX,
-.base-PmTxvP,
-.baseShapeRound-1Mm1YW,
-.bar-30k2ka,
-.unreadMentionsBar-1Bu1dC,
-.mention-1f5kbO,
-.active-1SSsBb,
-.disableButton-220a9y {
-	background-color: var(--ping) !important;
+.vc-addon-header > div > .container__87bf1,
+.container_c8ffbb,
+.members_c8ffbb,
+.member_c8ffbb,
+.container_cb32c7:has(> div > .appDetailsContainer_cb32c7) .rowDivider_cb32c7 {
+    background-color: var(--background-secondary) !important;
 }
 
-.lookOutlined-3sRXeN.colorRed-1TFJan {
-	color: var(--ping) !important;
+.container__87bf1.checked__87bf1,
+.container__87bf1.checked__87bf1 > .slider__87bf1 > svg > path,
+.vc-addon-header > div > .container__87bf1.checked__87bf1,
+.live_a7acae {
+    background-color: var(--background-accent) !important;
+    fill: var(--background-accent) !important;
 }
 
-.header-3OsQeK,
-.container-ZMc96U {
-	box-shadow: none !important;
-	border: none !important;
-}
-
-.content-1gYQeQ,
-.layout-1qmrhw,
-.inputDefault-3FGxgL,
-.input-2g-os5,
-.input-2z42oC,
-.role-2TIOKu,
-.searchBar-jGtisZ {
-	border-radius: 6px !important;
-}
-
-.layout-1qmrhw:hover,
-.content-1gYQeQ:hover,
-.friendSelected_ebf869 {
-	background-color: var(--background-modifier-selected) !important;
-}
-
-.panels_a4d4d9,
-.container_b2ca13 {
-	background-color: inherit !important;
-}
-
-.container_e5a42d {
-	background: unset !important;
-	border: unset !important;
-}
-
-.custom-profile-theme .colorPrimary_dd4f85 {
-	color: var(--white) !important;
-}
-
-.lookFilled_dd4f85.colorPrimary_dd4f85 {
-	color: var(--text-normal);
-}
-
-.colorDefault_d90b3d {
-	color: var(--text-normal) !important;
-}
-
-.colorDefault_d90b3d.focused_d90b3d .subtext_d90b3d {
-	color: var(--text-normal) !important;
+.muted__29444 .overflow__82b15 {
+    color:var(--background-modifier-hover)
 }

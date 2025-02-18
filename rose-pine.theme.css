@@ -65,6 +65,7 @@
     --background-floating: var(--surface);
     --primary-700: var(--surface);
     --bg-base-secondary: var(--surface);
+    --bg-mod-strong: var(--surface);
 
     --menu-item-default-active-bg: var(--overlay);
     --activity-card-background: var(--overlay);
@@ -109,6 +110,7 @@
     --info-warning-background: color-mix(in srgb, var(--love) 10%, transparent);
     --status-danger: var(--love);
     --button-danger-background-hover: var(--love);
+    --polls-voted-fill: color-mix(in srgb, var(--love) 25%, transparent);
 
     --background-mentioned: color-mix(in srgb, var(--gold) 10%, transparent);
     --background-mentioned-hover: color-mix(in srgb, var(--gold) 20%, transparent);
@@ -172,6 +174,8 @@
     --scrollbar-auto-thumb: var(--dawn-overlay);
     --primary-600: var(--dawn-overlay);
     --bg-mod-subtle: var(--dawn-overlay);
+    --bg-mod-subtle: var(--dawn-overlay);
+
 
     --text-muted: var(--dawn-muted);
     --interactive-hover: var(--dawn-muted);
@@ -199,6 +203,8 @@
     --info-warning-background: color-mix(in srgb, var(--dawn-love) 10%, transparent);
     --status-danger: var(--dawn-love);
     --button-danger-background-hover: var(--dawn-love);
+    --polls-voted-fill: color-mix(in srgb, var(--dawn-love) 25%, transparent);
+
 
     --background-mentioned: color-mix(in srgb, var(--dawn-gold) 10%, transparent);
     --background-mentioned-hover: color-mix(in srgb, var(--dawn-gold) 20%, transparent);
@@ -231,7 +237,8 @@
 .name_ac72c6 .input__0f084,
 .mainTableContainer__09a38,
 .container_cb32c7:has(> div > .appDetailsContainer_cb32c7),
-.copyInput_fffc15 {
+.copyInput_fffc15,
+.answerInner__4c520 {
     background-color: var(--background-tertiary) !important;
     fill: var(--background-tertiary) !important;
 }

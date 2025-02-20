@@ -8,7 +8,7 @@
 * @updateUrl https://github.com/rose-pine/discord/blob/rose-pine-moon.theme.css
 */
 
-@import url("https://gist.githubusercontent.com/benji-en/d65699ccfdc3f564fc18fe651eec0a20/raw/71ac0e6a585afe0b8d1e51fc2e15ceaac39f5d4b/rose-pine-test.css");
+@import url("https://raw.githubusercontent.com/rose-pine/discord/refs/heads/main/rose-pine-main.css");
 
 :root {
     --base: #232136;

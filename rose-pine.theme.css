@@ -111,6 +111,7 @@
     --status-danger: var(--love);
     --button-danger-background-hover: var(--love);
     --polls-voted-fill: color-mix(in srgb, var(--love) 25%, transparent);
+    --brand-15a: color-mix(in srgb, var(--love) 25%, transparent);
 
     --background-mentioned: color-mix(in srgb, var(--gold) 10%, transparent);
     --background-mentioned-hover: color-mix(in srgb, var(--gold) 20%, transparent);

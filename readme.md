@@ -16,7 +16,7 @@
 > [!NOTE]
 > For Discord web, see our [userstyle](https://userstyles.world/style/18964/rose-pine)
 
-1. Install [Vencord](https://vencord.dev/).
+1. Install a Discord client mod, such as [Vencord](https://vencord.dev/).
     - BetterDiscord is not supported right now, see [#30](https://github.com/rose-pine/discord/issues/30).
 2. Download `rose-pine.theme.css` or `rose-pine-moon.theme.css`.
 3. Go into settings, Themes, Open Themes Folder and drop the `rose-pine.theme.css` or `rose-pine-moon.theme.css` file into the folder.

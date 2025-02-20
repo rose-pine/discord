@@ -253,3 +253,8 @@
 .muted__29444 .overflow__82b15 {
     color: var(--background-modifier-hover) !important;
 }
+
+.colorDefault_c1e9c4.focused_c1e9c4 {
+    color: var(--text-normal) !important;
+    background-color: var(--background-tertiary);
+}

@@ -16,24 +16,25 @@
 > [!NOTE]
 > For Discord web, see our [userstyle](https://userstyles.world/style/18964/rose-pine)
 
-1. Install a client mod, such as [BetterDiscord](https://betterdiscord.app)
-2. Download rose-pine.theme.css
-3. Go into settings, Themes, and drop the `rose-pine.theme.css` file into the folder.
+1. Install [Vencord](https://vencord.dev/).
+    - BetterDiscord is not supported right now, see [#30](https://github.com/rose-pine/discord/issues/30).
+2. Download `rose-pine.theme.css` or `rose-pine-moon.theme.css`.
+3. Go into settings, Themes, Open Themes Folder and drop the `rose-pine.theme.css` or `rose-pine-moon.theme.css` file into the folder.
 4. To switch between Rosé Pine and Rosé Pine Dawn, go to the Appearance tab in settings and change the theme from Dark to Light.
 
 ## Gallery
 
 **Rosé Pine**
 
-![Rosé Pine for Discord](https://user-images.githubusercontent.com/44733677/142745821-a08720dd-d9b1-460d-bc27-acd680e673d8.png)
+![Rosé Pine for Discord](https://github.com/user-attachments/assets/345a3659-1087-4bde-8df0-e3540207c80e)
 
 **Rosé Pine Moon**
 
-![Rosé Pine Moon for Discord](https://github.com/user-attachments/assets/b929ba35-b17a-4890-809c-d68c5f0fa61c)
+![Rosé Pine Moon for Discord](https://github.com/user-attachments/assets/8f0187c3-08a4-4d98-bf0f-cf1b6e97a5f9)
 
 **Rosé Pine Dawn**
 
-![Rosé Pine Dawn for Discord](https://user-images.githubusercontent.com/44733677/142745835-896dbdd2-c21b-49bb-9a34-d30dd174749a.png)
+![Rosé Pine Dawn for Discord](https://github.com/user-attachments/assets/8faed7a6-24fc-47dc-bb0d-3665bbcd9173)
 
 ## Thanks to
 

@@ -25,15 +25,15 @@
 
 **Rosé Pine**
 
-![Rosé Pine for Discord](https://github.com/user-attachments/assets/345a3659-1087-4bde-8df0-e3540207c80e)
+![Rosé Pine for Discord](https://github.com/user-attachments/assets/a888e40f-ef9c-43b5-b050-3903464a8c51)
 
 **Rosé Pine Moon**
 
-![Rosé Pine Moon for Discord](https://github.com/user-attachments/assets/8f0187c3-08a4-4d98-bf0f-cf1b6e97a5f9)
+![Rosé Pine Moon for Discord](https://github.com/user-attachments/assets/fc59530f-ae85-4be8-a31b-52f1b76c420b)
 
 **Rosé Pine Dawn**
 
-![Rosé Pine Dawn for Discord](https://github.com/user-attachments/assets/8faed7a6-24fc-47dc-bb0d-3665bbcd9173)
+![Rosé Pine Dawn for Discord](https://github.com/user-attachments/assets/6a8bf69e-e07c-49dc-8669-70e4d28e04a3)
 
 ## Thanks to
 

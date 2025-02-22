@@ -54,27 +54,10 @@
     --header-secondary: var(--text);
     --interactive-normal: var(--text);
     --interactive-active: var(--text);
+    --button-secondary-text: var(--text);
 
-    --ping: var(--love);
-    --background-accent: var(--love);
-    --button-filled-brand-background: var(--love);
-    --button-filled-brand-background-hover: color-mix(in srgb, var(--love) 60%, transparent);
-    --control-brand-foreground-new: var(--love);
-    --brand-500: var(--love);
-    --brand-400: var(--love);
-    --control-brand-foreground: var(--love);
-    --text-brand: var(--love);
-    --info-warning-background: color-mix(in srgb, var(--love) 10%, transparent);
-    --status-danger: var(--love);
-    --button-danger-background-hover: var(--love);
-    --polls-voted-fill: color-mix(in srgb, var(--love) 25%, transparent);
-    --brand-15a: color-mix(in srgb, var(--love) 25%, transparent);
-    --button-filled-brand-background-active: color-mix(in srgb, var(--love) 30%, transparent);
-    --mention-background: color-mix(in srgb, var(--love) 25%, transparent);
-    --mention-foreground: color-mix(in srgb, var(--love) 75%, #fff 25%);
-    --brand-05a: color-mix(in srgb, var(--love) 15%, transparent);
-    --brand-10a: color-mix(in srgb, var(--love) 20%, transparent);
-
+    --status-danger: hsl(from var(--love) h s calc(l*0.85));
+    --menu-item-danger-active-bg: hsl(from var(--love) h s calc(l*0.85));
 
     --background-mentioned: color-mix(in srgb, var(--gold) 10%, transparent);
     --background-mentioned-hover: color-mix(in srgb, var(--gold) 20%, transparent);
@@ -83,6 +66,23 @@
     /* all variables using --rose would go here, but there are none */
 
     --text-link: var(--pine);
+    --ping: var(--pine);
+    --background-accent: var(--pine);
+    --button-filled-brand-background: var(--pine);
+    --button-filled-brand-background-hover: color-mix(in srgb, var(--pine) 60%, transparent);
+    --control-brand-foreground-new: var(--pine);
+    --brand-500: var(--pine);
+    --brand-400: var(--pine);
+    --control-brand-foreground: var(--pine);
+    --text-brand: var(--pine);
+    --info-warning-background: color-mix(in srgb, var(--pine) 10%, transparent);
+    --polls-voted-fill: color-mix(in srgb, var(--pine) 25%, transparent);
+    --brand-15a: color-mix(in srgb, var(--pine) 25%, transparent);
+    --button-filled-brand-background-active: color-mix(in srgb, var(--pine) 30%, transparent);
+    --mention-background: color-mix(in srgb, var(--pine) 25%, transparent);
+    --mention-foreground: hsl(from var(--pine) h s calc(l*1.5));
+    --brand-05a: color-mix(in srgb, var(--pine) 15%, transparent);
+    --brand-10a: color-mix(in srgb, var(--pine) 20%, transparent);
 
     --header-spotify: var(--foam);
 
@@ -96,6 +96,8 @@
     /* misc */
     --scrollbar-thin-track: transparent;
     --scrollbar-auto-track: transparent;
+
+    --button-filled-brand-text: var(--dawn-surface);
 }
 
 .theme-light {
@@ -122,6 +124,7 @@
     --primary-700: var(--dawn-surface);
     --bg-base-secondary: var(--dawn-surface);
     --bg-mod-strong: var(--dawn-surface);
+    --button-filled-brand-text: var(--dawn-surface);
 
     --menu-item-default-active-bg: var(--dawn-overlay);
     --activity-card-background: var(--dawn-overlay);
@@ -144,6 +147,7 @@
     --text-muted: var(--dawn-muted);
     --interactive-hover: var(--dawn-muted);
     --primary-400: var(--dawn-muted);
+    --primary-430: var(--dawn-muted);
 
     --background-message-highlight: color-mix(in srgb, var(--dawn-subtle) 15%, transparent);
     --clr-subtle: var(--dawn-subtle);
@@ -154,27 +158,9 @@
     --header-secondary: var(--dawn-text);
     --interactive-normal: var(--dawn-text);
     --interactive-active: var(--dawn-text);
+    --button-secondary-text: var(--dawn-text);
 
-    --ping: var(--dawn-love);
-    --background-accent: var(--dawn-love);
-    --button-filled-brand-background: var(--dawn-love);
-    --button-filled-brand-background-hover: color-mix(in srgb, var(--dawn-love) 60%, transparent);
-    --control-brand-foreground-new: var(--dawn-love);
-    --brand-500: var(--dawn-love);
-    --brand-400: var(--dawn-love);
-    --brand-560: var(--dawn-love);
-    --control-brand-foreground: var(--dawn-love);
-    --text-brand: var(--dawn-love);
-    --info-warning-background: color-mix(in srgb, var(--dawn-love) 10%, transparent);
     --status-danger: var(--dawn-love);
-    --button-danger-background-hover: var(--dawn-love);
-    --polls-voted-fill: color-mix(in srgb, var(--dawn-love) 25%, transparent);
-    --brand-160: color-mix(in srgb, var(--dawn-love) 25%, transparent);
-    --button-filled-brand-background-active: color-mix(in srgb, var(--dawn-love) 30%, transparent);
-    --mention-background: color-mix(in srgb, var(--dawn-love) 25%, transparent);
-    --brand-05a: color-mix(in srgb, var(--dawn-love) 25%, transparent);
-    --brand-10a: color-mix(in srgb, var(--dawn-love) 30%, transparent);
-
 
     --background-mentioned: color-mix(in srgb, var(--dawn-gold) 10%, transparent);
     --background-mentioned-hover: color-mix(in srgb, var(--dawn-gold) 20%, transparent);
@@ -183,6 +169,24 @@
     /* all variables using --rose would go here, but there are none */
 
     --text-link: var(--dawn-pine);
+    --ping: var(--dawn-pine);
+    --background-accent: var(--dawn-pine);
+    --button-filled-brand-background: var(--dawn-pine);
+    --button-filled-brand-background-hover: hsl(from var(--dawn-pine) h s calc(l*0.8));
+    --control-brand-foreground-new: var(--dawn-pine);
+    --brand-500: var(--dawn-pine);
+    --brand-400: var(--dawn-pine);
+    --brand-560: var(--dawn-pine);
+    --control-brand-foreground: var(--dawn-pine);
+    --info-warning-background: color-mix(in srgb, var(--dawn-pine) 25%, transparent);
+    --text-brand: var(--dawn-pine);
+    --polls-voted-fill: color-mix(in srgb, var(--dawn-pine) 25%, transparent);
+    --brand-160: color-mix(in srgb, var(--dawn-pine) 25%, transparent);
+    --button-filled-brand-background-active: hsl(from var(--dawn-pine) h s calc(l*0.5));
+    --mention-background: color-mix(in srgb, var(--dawn-pine) 25%, transparent);
+    --mention-foreground: hsl(from var(--dawn-pine) h s calc(l*1.5));
+    --brand-05a: color-mix(in srgb, var(--dawn-pine) 25%, transparent);
+    --brand-10a: color-mix(in srgb, var(--dawn-pine) 30%, transparent);
 
     --header-spotify: var(--dawn-foam);
 
@@ -217,6 +221,11 @@
     fill: var(--background-tertiary) !important;
 }
 
+.iconBadge__650eb.isCurrentUserConnected__650eb {
+    background-color: var(--background-accent) !important;
+}
+
+
 .replying__5126c:before {
     background-color: var(--clr-subtle) !important;
 }
@@ -241,20 +250,55 @@
 .container__87bf1.checked__87bf1,
 .container__87bf1.checked__87bf1 > .slider__87bf1 > svg > path,
 .vc-addon-header > div > .container__87bf1.checked__87bf1,
-.live_a7acae {
+.live_a7acae,
+.unreadPill__908e2 {
     background-color: var(--brand-500) !important;
     fill: var(--brand-500) !important;
 }
 
+.unreadPillCapStroke__908e2 {
+    fill: var(--background-accent) !important;
+    color: var(--background-accent) !important;
+}
+
+.warning__6436f,
+.isUnread__908e2, .custom-theme-background .isUnread__908e2 {
+    border-color: var(--background-accent) !important;
+}
+
+.warning__6436f .icon__6436f,
+.isUnread__908e2 .content__908e2 {
+    color: var(--background-accent) !important;
+}
+
 .executedCommand_c19a55 .appLauncherOnboardingCommandName_c19a55  {
-    background-color: color-mix(in srgb, var(--text-link) 25%, transparent);
+    background-color: color-mix(in srgb, var(--text-link) 25%, transparent) !important;
 }
 
 .muted__29444 .overflow__82b15 {
     color: var(--background-modifier-hover) !important;
 }
 
-.colorDefault_c1e9c4.focused_c1e9c4 {
+.colorDefault_c1e9c4.focused_c1e9c4,
+.colorDefault_c1e9c4:active:not(.hideInteraction_c1e9c4) {
     color: var(--text-normal) !important;
-    background-color: var(--background-tertiary);
+    background-color: var(--background-tertiary) !important;
+}
+
+.modeMuted__2ea32 .icon__2ea32,
+.modeMuted__2ea32 .name__2ea32{
+    /* color: hsl(from var(--muted) h s calc(l*0.7)); */
+    color: var(--text-muted) !important;
+}
+
+.theme-dark .iconBackgroundTierTwo__97677 {
+    color: hsl(from var(--interactive-muted) h s calc(l*1.8)) !important;
+}
+
+.darkIcon__36dee {
+    background-color: var(--base) !important;
+}
+
+.lightIcon__36dee {
+    background-color: var(--dawn-base) !important;
 }

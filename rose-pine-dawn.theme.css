@@ -16,28 +16,8 @@ CONFIGURATION 📝‼️
     --windows-hover: 1;
 }
 
-
-/* ----- Rosé Pine Moon Color Palette ----- */
-:root {
-    --base: #232136;
-    --surface: #2a273f;
-    --overlay: #393552;
-    --muted: #6e6a86;
-    --subtle: #908caa;
-    --text: #e0def4;
-    --love: #eb6f92;
-    --gold: #f6c177;
-    --rose: #ea9a97;
-    --pine: #3e8fb0;
-    --foam: #9ccfd8;
-    --iris: #c4a7e7;
-    --highlightLow: #2a283e;
-    --highlightMed: #44415a;
-    --highlightHigh: #56526e;
-}
-
 /* Rose Pine Dawn Color Palette */
-/* :root {
+:root {
     --base: #faf4ed;
     --surface: #fffaf3;
     --overlay: #f2e9e1;
@@ -53,7 +33,7 @@ CONFIGURATION 📝‼️
     --highlightLow: #f4ede8;
     --highlightMed: #dfdad9;
     --highlightHigh: #cecacd;
-} */
+}
 
 
 /* ---------------------------- Global Styles ---------------------------- */

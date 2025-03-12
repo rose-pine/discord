@@ -22,10 +22,8 @@
 
 ## Gallery
 
-**Rosé Pine Moon**
-
-![Rosé Pine Moon for Discord](https://imgur.com/a/RUDJr3l)
-![Rosé Pine Moon for Discord2](https://imgur.com/a/GLrMzut)
+![Rosé Pine Moon for Discord](https://i.imgur.com/MWGPMDU.png)
+![Rosé Pine Moon for Discord2](https://i.imgur.com/AWszjFB.png)
 
 
 ## Thanks to

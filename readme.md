@@ -17,23 +17,16 @@
 > For Discord web, see our [userstyle](https://userstyles.world/style/18964/rose-pine)
 
 1. Install a Discord client mod, such as [Vencord](https://vencord.dev/) or [BetterDiscord](https://betterdiscord.app/).
-2. Download `rose-pine.theme.css` or `rose-pine-moon.theme.css`.
-3. Go into settings, Themes, Open Themes Folder and drop the `rose-pine.theme.css` or `rose-pine-moon.theme.css` file into the folder.
-4. To switch between Rosé Pine and Rosé Pine Dawn, go to the Appearance tab in settings and change the theme from Dark to Light.
+2. Download `rose-pine-moon.theme.css` or    `rose-pine-dawn.theme.css`.
+3. Go into settings, Themes, Open Themes Folder and drop the downloaded file into the folder.
 
 ## Gallery
 
-**Rosé Pine**
-
-![Rosé Pine for Discord](https://github.com/user-attachments/assets/a888e40f-ef9c-43b5-b050-3903464a8c51)
-
 **Rosé Pine Moon**
 
-![Rosé Pine Moon for Discord](https://github.com/user-attachments/assets/fc59530f-ae85-4be8-a31b-52f1b76c420b)
+![Rosé Pine Moon for Discord](https://imgur.com/a/RUDJr3l)
+![Rosé Pine Moon for Discord2](https://imgur.com/a/GLrMzut)
 
-**Rosé Pine Dawn**
-
-![Rosé Pine Dawn for Discord](https://github.com/user-attachments/assets/6a8bf69e-e07c-49dc-8669-70e4d28e04a3)
 
 ## Thanks to
 

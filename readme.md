@@ -16,9 +16,9 @@
 > [!NOTE]
 > For Discord web, see our [userstyle](https://userstyles.world/style/18964/rose-pine)
 
-1. Install a Discord client mod, such as [Vencord](https://vencord.dev/) or [BetterDiscord](https://betterdiscord.app/).
-2. Download `rose-pine-moon.theme.css` or    `rose-pine-dawn.theme.css`.
-3. Go into settings, Themes, Open Themes Folder and drop the downloaded file into the folder.
+1. Install a Discord client mod, such as [Vencord](https://vencord.dev/) or [BetterDiscord](https://betterdiscord.app/)
+2. Download your preferred variant
+3. Navigate to Settings &rarr; Themes &rarr; Open Themes Folder and drop the downloaded file into the folder
 
 ## Gallery
 
@@ -30,3 +30,15 @@
 
 - [ThatOneCalculator](https://t1c.dev)
 - [noobfletcher1](https://github.com/noobfletcher1)
+
+## Contributing
+
+This theme is built using [bloom](https://github.com/rose-pine/rose-pine-bloom):
+
+```sh
+# Install bloom
+curl -sf http://goblin.run/github.com/rose-pine/rose-pine-bloom@v2 | sh
+
+# Build themes
+rose-pine-bloom template.theme.css
+```

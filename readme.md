@@ -16,26 +16,38 @@
 > [!NOTE]
 > For Discord web, see our [userstyle](https://userstyles.world/style/18964/rose-pine)
 
-1. Install a Discord client mod, such as [Vencord](https://vencord.dev/) or [BetterDiscord](https://betterdiscord.app/).
-2. Download `rose-pine.theme.css` or `rose-pine-moon.theme.css`.
-3. Go into settings, Themes, Open Themes Folder and drop the `rose-pine.theme.css` or `rose-pine-moon.theme.css` file into the folder.
-4. To switch between Rosé Pine and Rosé Pine Dawn, go to the Appearance tab in settings and change the theme from Dark to Light.
+1. Install a Discord client mod, such as [Vencord](https://vencord.dev/) or [BetterDiscord](https://betterdiscord.app/)
+2. Download your preferred variant
+3. Navigate to Settings &rarr; Themes &rarr; Open Themes Folder and drop the downloaded file into the folder
 
 ## Gallery
 
 **Rosé Pine**
 
-![Rosé Pine for Discord](https://github.com/user-attachments/assets/a888e40f-ef9c-43b5-b050-3903464a8c51)
+![Rosé Pine for Discord](https://github.com/user-attachments/assets/4b3d278e-1193-4bf4-babf-08caa96ba686)
 
 **Rosé Pine Moon**
 
-![Rosé Pine Moon for Discord](https://github.com/user-attachments/assets/fc59530f-ae85-4be8-a31b-52f1b76c420b)
+![Rosé Pine Moon for Discord](https://github.com/user-attachments/assets/2c7ed1d7-0844-4de7-baa8-1d623da3e697)
 
 **Rosé Pine Dawn**
 
-![Rosé Pine Dawn for Discord](https://github.com/user-attachments/assets/6a8bf69e-e07c-49dc-8669-70e4d28e04a3)
+![Rosé Pine Dawn for Discord](https://github.com/user-attachments/assets/a58ca429-8c5e-4f78-ad58-421f9f16a8c9)
+
 
 ## Thanks to
 
 - [ThatOneCalculator](https://t1c.dev)
 - [noobfletcher1](https://github.com/noobfletcher1)
+
+## Contributing
+
+This theme is built using [bloom](https://github.com/rose-pine/rose-pine-bloom):
+
+```sh
+# Install bloom
+curl -sf http://goblin.run/github.com/rose-pine/rose-pine-bloom@v2 | sh
+
+# Build themes
+rose-pine-bloom template.theme.css
+```

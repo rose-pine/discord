@@ -40,7 +40,7 @@
 
 - [ThatOneCalculator](https://t1c.dev)
 - [noobfletcher1](https://github.com/noobfletcher1)
-- [Darsh-A]()
+- [Darsh-A](https://github.com/Darsh-A)
 
 ## Contributing
 

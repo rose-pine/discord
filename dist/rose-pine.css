@@ -1,7 +1,7 @@
 /**
 * @name Rosé Pine
 * @author Ardo
-* @version 4.3.0
+* @version 4.3.1
 * @description All natural pine, faux fur and a bit of soho vibes for the classy minimalist.
 * @source https://github.com/rose-pine/discord
 * @updateUrl https://github.com/rose-pine/discord/blob/rose-pine.theme.css
@@ -14,9 +14,7 @@ CONFIGURATION 📝‼️
 :root {
     /* 1=False ; 0=True */
     --windows-hover: 1;
-}
 
-:root {
     --base: #191724;
     --surface: #1f1d2e;
     --overlay: #26233a;
@@ -43,9 +41,16 @@ CONFIGURATION 📝‼️
     background-color: var(--overlay) !important;
 }
 
+
+/* Custom Logo Icon */
+.wrapper__6e9f8[aria-label="Direct Messages"] .childWrapper__6e9f8 svg {
+    display: none;
+    /* Hide the original SVG */
+}
+
 /* Top left custom text */
 .container_c48ade::before {
-    content: "Ardo";
+    content: "Rosé Pine";
     position: absolute;
     top: 10px;
     left: 16px;
@@ -60,12 +65,9 @@ CONFIGURATION 📝‼️
 
 }
 
-/* Custom Logo Icon */
-.wrapper__6e9f8[aria-label="Direct Messages"] .childWrapper__6e9f8 svg {
-    display: none; /* Hide the original SVG */
-}
 .wrapper__6e9f8[aria-label="Direct Messages"] .childWrapper__6e9f8 {
-    display: flex; /* Ensure proper layout */
+    display: flex;
+    /* Ensure proper layout */
     align-items: center;
     justify-content: center;
     background-color: transparent !important;
@@ -73,7 +75,8 @@ CONFIGURATION 📝‼️
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
-    width: 55px;  /* Match the original SVG size */
+    width: 55px;
+    /* Match the original SVG size */
     height: 55px;
 }
 
@@ -86,7 +89,7 @@ CONFIGURATION 📝‼️
 
 /* Remove Server Name Icon from Top bar */
 .title_c38106 {
-    display:none !important;
+    display: none !important;
 }
 
 
@@ -110,6 +113,9 @@ CONFIGURATION 📝‼️
     opacity: var(--windows-hover);
     cursor: default;
 
+}
+.trailing_c38106 {
+    padding-right: 10px !important;
 }
 
 .bar_c38106 {
@@ -175,6 +181,7 @@ CONFIGURATION 📝‼️
 .wrapper_cc5dd2 .svg_cc5dd2 {
     background-color: transparent !important;
 }
+
 .childWrapper__6e9f8 {
     background-color: var(--highlightMed) !important;
 }
@@ -289,8 +296,9 @@ CONFIGURATION 📝‼️
     color: var(--foam) !important;
 }
 
-
-
+.folderIcon__48112 {
+    color: var(--foam) !important;
+}
 
 /* ---------------------------- Main Chat Area ---------------------------- */
 
@@ -305,10 +313,6 @@ CONFIGURATION 📝‼️
     color: var(--base) !important;
 }
 
-.bannerImg_f37cb1 {
-    /*Server banner if present*/
-    background-color: var(--base) !important;
-}
 
 .container_c8ffbb {
     /* Category container */
@@ -327,6 +331,21 @@ CONFIGURATION 📝‼️
     background-color: var(--surface) !important;
 }
 
+/* Bot Tag */
+.botTag__5d473 {
+    background-color: var(--foam) !important;
+    color: var(--highlightLow) !important;
+}
+
+.botTagVerified__82f07 {
+    color: var(--highlightLow) !important;
+}
+
+.botTagVerified__82f07 path {
+    fill: var(--base);
+}
+
+
 .messageContent_c19a55 {
     /* Message text */
     color: var(--text) !important;
@@ -335,6 +354,7 @@ CONFIGURATION 📝‼️
 .markup__75297 a {
     color: var(--foam) !important;
 }
+
 .newMessagesBar__0f481 {
     /* Unread messages bar */
     background-color: var(--iris) !important;
@@ -364,6 +384,7 @@ CONFIGURATION 📝‼️
     background-color: var(--surface) !important;
     border-radius: 25px !important;
 }
+
 .prompt__5d7c9 {
     background-color: var(--overlay) !important;
 }
@@ -373,24 +394,37 @@ CONFIGURATION 📝‼️
     background-color: var(--overlay) !important;
 }
 
-/* New Messages */ 
+/* New Messages */
 .isUnread__908e2 {
     border-color: var(--love) !important;
 }
+
 .unreadPill__908e2.endCap__908e2 {
     background-color: var(--love) !important;
 }
-path.unreadPillCapStroke__908e2{
+
+path.unreadPillCapStroke__908e2 {
     stroke: var(--love) !important;
-    fill : var(--love) !important;
+    fill: var(--love) !important;
 }
 
 /* Jump to Present */
 .jumpToPresentBar__0f481.bottomBar__0f481.barBase__0f481.barWithAppLauncherButton__0f481 {
     background-color: var(--overlay) !important;
 }
+
 .button__201d5.lookFilled__201d5.colorBrand__201d5.sm.grow__201d5 {
     background-color: var(--foam) !important;
+}
+
+/* New Message Divider */
+.divider__5126c,
+.content__908e2 {
+    background-color: var(--foam) !important;
+}
+
+.content__908e2 {
+    color: var(--base) !important;
 }
 
 /* Update and Thread */
@@ -398,18 +432,87 @@ path.unreadPillCapStroke__908e2{
     background-color: var(--surface) !important;
     border-radius: 25px !important;
 }
+
 .container_faa96b.mainCard_f369db {
     background-color: var(--overlay) !important;
     border-radius: 25px !important;
 }
+
 .mainCard_f369db.header_f369db {
     background-color: var(--surface) !important;
     border-radius: 25px !important;
-} 
+}
+
 .container_d9be46.collapsed_d9be46 {
     background-color: var(--overlay) !important;
     border-radius: 25px !important;
 }
+
+.container__34c2c {
+    background-color: var(--overlay) !important;
+}
+
+/* Code Blocks */
+.codeContainer__75297 {
+    background-color: var(--overlay) !important;
+    border-radius: var(--radius-md);
+}
+
+/* File */
+.file__0ccae {
+    background-color: var(--overlay) !important;
+}
+
+/* Large text  */
+.textContainer__4d95d {
+    background-color: var(--highlightMed) !important;
+    border: none !important;
+}
+
+.footer__4d95d {
+    background-color: var(--overlay) !important;
+    border: none !important;
+}
+
+.scrollbarGhostHairline__506b3 {
+    background-color: var(--highlightMed) !important;
+}
+
+.toggleExpandSection__4d95d,
+.openFullPreviewSection__4d95d {
+    color: var(--gold) !important;
+}
+
+.codeIcon__4d95d {
+    color: var(--foam) !important;
+}
+
+.downloadButton__4d95d {
+    color: var(--love) !important;
+}
+
+/* Jump to Present */
+.button__201d5.lookFilled__201d5.colorBrand__201d5.sizeSmall__201d5.grow__201d5 {
+    background-color: var(--love) !important;
+}
+
+
+
+/* Polls */
+.container__0be77 {
+    background-color: var(--highlightMed) !important;
+}
+
+.buttonPresentation__0be77.button__201d5.lookFilled__201d5.colorBrand__201d5.sizeSmall__201d5.grow__201d5 {
+    background-color: var(--gold) !important;
+    color: var(--base) !important;
+}
+
+.buttonPresentation__0be77.secondaryButtonPresentation__0be77.button__201d5.lookFilled__201d5.sizeSmall__201d5.grow__201d5 {
+    background-color: var(--love) !important;
+}
+
+
 
 
 /* -------------Message Area TopBar - Channel Name -----------*/
@@ -426,14 +529,19 @@ path.unreadPillCapStroke__908e2{
 .icon__97492 {
     padding-right: 10px;
 }
+
 /* Centering Title */
 .children__9293f {
     display: flex;
-    justify-content: center; /* Centers horizontally */
-    align-items: center; /* Centers vertically */
+    justify-content: center;
+    /* Centers horizontally */
+    align-items: center;
+    /* Centers vertically */
 }
+
 /* Removing Channel Descp from topbar */
-.dot__9293f, .topic__6ec1a {
+.dot__9293f,
+.topic__6ec1a {
     display: none !important;
 }
 
@@ -457,6 +565,10 @@ path.unreadPillCapStroke__908e2{
 .subtitleContainer_f75fb0 {
     background-color: transparent !important;
     border: transparent !important;
+}
+
+.iconWrapper__7e6bb {
+    background-color: var(--overlay) !important;
 }
 
 
@@ -490,8 +602,9 @@ path.unreadPillCapStroke__908e2{
 }
 
 .returnButton__0b563.button__201d5.lookOutlined__201d5.colorPrimary__201d5.sizeSmall__201d5.grow__201d5 {
-    border-color:transparent !important;
+    border-color: transparent !important;
 }
+
 .returnButton__0b563.button__201d5.lookOutlined__201d5.colorPrimary__201d5.sizeSmall__201d5.grow__201d5:hover {
     background-color: var(--iris) !important;
 }
@@ -550,6 +663,7 @@ rect[mask="url(#svg-mask-status-idle)"] {
 .panel__5dec7.activityPanel_c48ade {
     background-color: var(--surface) !important;
 }
+
 .panelButtonContainer__4cd01 {
     color: var(--overlay) !important;
 }
@@ -614,14 +728,15 @@ button[aria-label="User Settings"] .lottieIcon__5eb9b svg path {
 /* ---------------------------- Text Input ---------------------------- */
 
 .textArea__74017 {
-    /* Text input area */
-    border: 0px solid var(--highlightMed) !important;
+    margin-left: -20px;
 }
+
 .channelTextArea_f75fb0 {
     background-color: var(--overlay) !important;
     border-color: var(--iris) !important;
     border-radius: 25px !important;
 }
+
 /* .scrollableContainer__74017 {
     background-color: var(--overlay) !important;
 } */
@@ -636,13 +751,17 @@ button[aria-label="User Settings"] .lottieIcon__5eb9b svg path {
 .channelAttachmentArea_b77158.scrollbarGhost__506b3.scrollbar__506b3 {
     background-color: transparent !important;
 }
-.uploadContainer_aa605f, .upload_aa605f {
+
+.uploadContainer_aa605f,
+.upload_aa605f {
     background-color: var(--highlightMed) !important;
 
 }
+
 .wrapper_f7ecac {
     background-color: var(--surface) !important;
 }
+
 .button_f7ecac.dangerous_f7ecac {
     color: var(--love) !important;
 }
@@ -657,9 +776,11 @@ button[aria-label="User Settings"] .lottieIcon__5eb9b svg path {
 .attachButton__0923f.attachButton__74017.button__201d5.lookBlank__201d5.colorBrand__201d5.grow__201d5 {
     background-color: transparent !important;
 }
+
 .contents__201d5.attachButtonInner__0923f {
     color: var(--love) !important;
 }
+
 .contents__201d5.attachButtonInner__0923f:hover {
     color: color-mix(in srgb, var(--love), transparent 70%) !important;
 }
@@ -669,7 +790,6 @@ button[aria-label="User Settings"] .lottieIcon__5eb9b svg path {
 /* Placeholder text */
 .slateTextArea_ec4baf {
     /* Actual text input */
-    color: var(--subtle) !important;
     padding-left: 20px !important;
 }
 
@@ -760,10 +880,6 @@ button[aria-label="User Settings"] .lottieIcon__5eb9b svg path {
     background-color: var(--rose) !important;
 }
 
-.container_f37cb1.hasBanner_f37cb1 {
-    /* Server Top banner when having a banner img */
-    background-color: transparent !important;
-}
 
 .mention {
     background-color: rgba(var(--rose), 0.1) !important;
@@ -780,6 +896,7 @@ button[aria-label="User Settings"] .lottieIcon__5eb9b svg path {
     /* Reply */
     background-color: color-mix(in srgb, var(--foam), transparent 80%) !important;
 }
+
 .message__5126c.cozyMessage__5126c.replying__5126c.wrapper_c19a55.cozy_c19a55.zalgo_c19a55::before {
     background-color: var(--foam) !important;
 }
@@ -797,28 +914,49 @@ button[aria-label="User Settings"] .lottieIcon__5eb9b svg path {
 
 
 /* ---------------------------- Onboarding ---------------------------- */
-.scroller__7d20c{
+.scroller__7d20c {
     background-color: var(--surface) !important;
     border-radius: 25px !important;
 }
+
 .theme-dark.images-dark.container__9293f.themed__9293f {
     background-color: var(--surface) !important;
     border-radius: 25px !important;
 }
+
 .item__133bf[aria-label="Add Friend"] {
     background-color: var(--iris) !important;
+    color: var(--base) !important;
 }
+
 .searchBar__5ec2f {
     background-color: transparent !important;
     border-radius: 20px !important;
 }
+
 .inner_a45028 {
     background-color: var(--overlay) !important;
     border-radius: 25px !important;
 }
+
 .actionButton_f8fa06 {
     background-color: var(--overlay) !important;
 
+}
+
+/* Activity Now */
+.nowPlayingColumn__133bf {
+    background: none !important;
+    border: none !important;
+}
+
+.itemCard__7e549 {
+    background-color: var(--overlay) !important;
+}
+
+.numberBadge__2b1f5,
+.newBadge__4ed1a {
+    background-color: var(--love) !important;
 }
 
 
@@ -842,6 +980,42 @@ button[aria-label="User Settings"] .lottieIcon__5eb9b svg path {
 .closeButton_c2b141 {
     color: var(--love) !important;
 }
+
+.overlay_c0bea0 {
+    background-color: var(--surface) !important;
+}
+
+
+
+
+/* ---------------------------- Dialogues ---------------------------- */
+
+
+/* Confirm Delete */
+.root__49fc1,
+.flex__7c0ba {
+    background-color: var(--overlay) !important;
+}
+
+/* Delete Button */
+.button__201d5.lookFilled__201d5.colorRed__201d5.sizeMedium__201d5.grow__201d5 {
+    background-color: var(--love) !important;
+}
+
+.message__89466 {
+    background-color: var(--overlay) !important;
+    border-radius: 15px !important;
+}
+
+.pro__30cbe {
+    color: var(--gold) !important;
+}
+
+/* Search Box */
+.container__55c99 {
+    background-color: var(--overlay) !important;
+}
+
 
 
 /* 
@@ -879,7 +1053,7 @@ Credits:
     /* turn on to move inbox button to the server list (recommend setting top bar height to 24px) */
     --custom-app-top-bar-height: 32px;
     /* height of the titlebar/top bar */
-  
+
     --small-user-panel: off;
     /* turn on to make the user panel smaller like in old discord */
 }
@@ -1011,13 +1185,6 @@ Credits:
     /* channel list inner */
         {
         padding-bottom: 0;
-    }
-
-    .hasBanner_f37cb1 .header_f37cb1
-
-    /* server name + banner */
-        {
-        background-color: var(--background-base-lower);
     }
 
     .clickable_f37cb1,

@@ -20,6 +20,8 @@
 2. Download your preferred variant
 3. Navigate to Settings &rarr; Themes &rarr; Open Themes Folder and drop the downloaded file into the folder
 
+4. (Optional) For hovered windows controls use `--windows-hover:0` in the root config
+
 ## Gallery
 
 **Rosé Pine**
@@ -39,6 +41,7 @@
 
 - [ThatOneCalculator](https://t1c.dev)
 - [noobfletcher1](https://github.com/noobfletcher1)
+- [Darsh-A]()
 
 ## Contributing
 

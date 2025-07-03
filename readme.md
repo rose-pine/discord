@@ -25,15 +25,15 @@
 
 **Rosé Pine**
 
-![Rosé Pine for Discord](https://github.com/user-attachments/assets/4b3d278e-1193-4bf4-babf-08caa96ba686)
+![Rosé Pine for Discord](asset/Rose-pine.png)
 
 **Rosé Pine Moon**
 
-![Rosé Pine Moon for Discord](https://github.com/user-attachments/assets/2c7ed1d7-0844-4de7-baa8-1d623da3e697)
+![Rosé Pine Moon for Discord](asset/Rose-pine-moon.png)
 
 **Rosé Pine Dawn**
 
-![Rosé Pine Dawn for Discord](https://github.com/user-attachments/assets/a58ca429-8c5e-4f78-ad58-421f9f16a8c9)
+![Rosé Pine Dawn for Discord](asset/Rose-pine-dawn.png)
 
 
 ## Thanks to

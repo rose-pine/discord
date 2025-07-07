@@ -42,7 +42,6 @@ CONFIGURATION 📝‼️
     background-color: var(--overlay) !important;
 }
 
-
 /* Custom Logo Icon */
 .wrapper__6e9f8[aria-label="Direct Messages"] .childWrapper__6e9f8 svg {
     display: none;
@@ -80,19 +79,12 @@ CONFIGURATION 📝‼️
     /* Match the original SVG size */
     height: 55px;
 }
-
-
-
-
-
-
 /* ---------------------------- System Bar (Windows) ---------------------------- */
 
 /* Remove Server Name Icon from Top bar */
 .title_c38106 {
     display: none !important;
 }
-
 
 /* TopBar */
 .bar_c38106 {
@@ -297,6 +289,19 @@ CONFIGURATION 📝‼️
     color: var(--foam) !important;
 }
 
+/* Make Read Channel Names duller */
+.wrapper__2ea32:not(.modeUnreadImportant__2ea32) .name__2ea32 {
+    /* color: var(--muted) !important; */
+    opacity: 0.4 !important;
+}
+
+/* Make selected channel text foam color - more specific selector */
+.containerDefault_c69b6d.selected_c69b6d .name__2ea32,
+.wrapper__2ea32.modeSelected__2ea32 .name__2ea32 {
+    color: var(--iris) !important;
+    opacity: 1 !important;
+}
+
 .folderIcon__48112 {
     color: var(--foam) !important;
 }
@@ -453,6 +458,23 @@ path.unreadPillCapStroke__908e2 {
     background-color: var(--overlay) !important;
 }
 
+.container__9293f {
+    background-color: var(--surface) !important;
+}
+
+/* More specific rule for close buttons */
+.iconWrapper__9293f.clickable__9293f[aria-label="Close"] {
+    color: var(--love) !important;
+}
+
+.iconWrapper__9293f.clickable__9293f[aria-label="Close"] svg {
+    color: var(--love) !important;
+}
+
+.iconWrapper__9293f.clickable__9293f[aria-label="Close"] path {
+    fill: var(--love) !important;
+}
+
 /* Code Blocks */
 .codeContainer__75297 {
     background-color: var(--overlay) !important;
@@ -512,6 +534,9 @@ path.unreadPillCapStroke__908e2 {
 .buttonPresentation__0be77.secondaryButtonPresentation__0be77.button__201d5.lookFilled__201d5.sizeSmall__201d5.grow__201d5 {
     background-color: var(--love) !important;
 }
+.container_f69538.embed_f69538 {
+    background-color: var(--surface) !important;
+}
 
 
 
@@ -570,6 +595,19 @@ path.unreadPillCapStroke__908e2 {
 
 .iconWrapper__7e6bb {
     background-color: var(--overlay) !important;
+}
+.container__6764b {
+    background-color: var(--surface) !important;
+}
+.container_a45028 {
+    background-color: transparent !important;
+}
+.createButton_d9c882 {
+    background-color: var(--iris) !important;
+    color: var(--base) !important;
+}
+.closeIcon_d9c882 {
+    color: var(--love) !important;
 }
 
 
@@ -659,6 +697,16 @@ rect[mask="url(#svg-mask-status-idle)"] {
     /* Voice Ping */
     fill: var(--foam) !important;
 }
+
+.flex__7c0ba.horizontal__7c0ba.justifyStart_abf706.alignStretch_abf706.noWrap_abf706.voiceButtonsContainer_e131a9,
+.flex__7c0ba.horizontal__7c0ba.justifyStart_abf706.alignCenter_abf706.noWrap_abf706.connection_e131a9 {
+    background-color: var(--surface) !important;
+}
+
+.button_e131a9 {
+    background-color: var(--overlay) !important;
+}
+
 
 /* Screen Share */
 .panel__5dec7.activityPanel_c48ade {
@@ -866,6 +914,12 @@ button[aria-label="User Settings"] .lottieIcon__5eb9b svg path {
 .unread__2ea32 {
     background-color: var(--foam) !important;
 }
+.barButtonMain__0f481 {
+    color: var(--highlightLow) !important;
+}
+.barButtonAlt__0f481 {
+    color: var(--highlightMed) !important;
+}
 
 /* ---------------------------- Tooltips ---------------------------- */
 
@@ -986,7 +1040,9 @@ button[aria-label="User Settings"] .lottieIcon__5eb9b svg path {
     background-color: var(--surface) !important;
 }
 
-
+.top_b3f026 .item_b3f026.brand_b3f026 {
+    background-color: transparent !important;
+}
 
 
 /* ---------------------------- Dialogues ---------------------------- */
@@ -1015,6 +1071,15 @@ button[aria-label="User Settings"] .lottieIcon__5eb9b svg path {
 /* Search Box */
 .container__55c99 {
     background-color: var(--overlay) !important;
+}
+
+.voiceFiltersPopout_e2f668{
+    background-color: var(--overlay) !important;
+    border-radius: 15px !important;
+}
+.voiceFiltersFooter_e2f668 {
+    background-color: var(--highlightLow) !important;
+    border-radius: 15px !important;
 }
 
 

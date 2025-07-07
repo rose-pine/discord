@@ -41,6 +41,7 @@ CONFIGURATION 📝‼️
     background-color: var(--overlay) !important;
 }
 
+
 /* Custom Logo Icon */
 .wrapper__6e9f8[aria-label="Direct Messages"] .childWrapper__6e9f8 svg {
     display: none;
@@ -288,6 +289,7 @@ CONFIGURATION 📝‼️
     color: var(--foam) !important;
 }
 
+
 /* Make Read Channel Names duller */
 .wrapper__2ea32:not(.modeUnreadImportant__2ea32) .name__2ea32 {
     /* color: var(--muted) !important; */
@@ -300,6 +302,7 @@ CONFIGURATION 📝‼️
     color: var(--iris) !important;
     opacity: 1 !important;
 }
+
 
 .folderIcon__48112 {
     color: var(--foam) !important;
@@ -457,6 +460,7 @@ path.unreadPillCapStroke__908e2 {
     background-color: var(--overlay) !important;
 }
 
+
 .container__9293f {
     background-color: var(--surface) !important;
 }
@@ -473,6 +477,7 @@ path.unreadPillCapStroke__908e2 {
 .iconWrapper__9293f.clickable__9293f[aria-label="Close"] path {
     fill: var(--love) !important;
 }
+
 
 /* Code Blocks */
 .codeContainer__75297 {
@@ -533,9 +538,11 @@ path.unreadPillCapStroke__908e2 {
 .buttonPresentation__0be77.secondaryButtonPresentation__0be77.button__201d5.lookFilled__201d5.sizeSmall__201d5.grow__201d5 {
     background-color: var(--love) !important;
 }
+
 .container_f69538.embed_f69538 {
     background-color: var(--surface) !important;
 }
+
 
 
 
@@ -595,6 +602,7 @@ path.unreadPillCapStroke__908e2 {
 .iconWrapper__7e6bb {
     background-color: var(--overlay) !important;
 }
+
 .container__6764b {
     background-color: var(--surface) !important;
 }
@@ -608,6 +616,7 @@ path.unreadPillCapStroke__908e2 {
 .closeIcon_d9c882 {
     color: var(--love) !important;
 }
+
 
 
 /* Search Results */
@@ -1039,9 +1048,11 @@ button[aria-label="User Settings"] .lottieIcon__5eb9b svg path {
     background-color: var(--surface) !important;
 }
 
+
 .top_b3f026 .item_b3f026.brand_b3f026 {
     background-color: transparent !important;
 }
+
 
 
 /* ---------------------------- Dialogues ---------------------------- */
@@ -1071,6 +1082,7 @@ button[aria-label="User Settings"] .lottieIcon__5eb9b svg path {
 .container__55c99 {
     background-color: var(--overlay) !important;
 }
+
 
 .voiceFiltersPopout_e2f668{
     background-color: var(--overlay) !important;

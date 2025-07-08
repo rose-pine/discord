@@ -544,6 +544,11 @@ path.unreadPillCapStroke__908e2 {
     background-color: var(--surface) !important;
 }
 
+.container_f69538.embed_f69538 {
+    background-color: var(--surface) !important;
+}
+
+
 
 
 
@@ -618,6 +623,21 @@ path.unreadPillCapStroke__908e2 {
 }
 .cta__9271d {
     color: var(--gold) !important;
+}
+
+
+.container__6764b {
+    background-color: var(--surface) !important;
+}
+.container_a45028 {
+    background-color: transparent !important;
+}
+.createButton_d9c882 {
+    background-color: var(--iris) !important;
+    color: var(--base) !important;
+}
+.closeIcon_d9c882 {
+    color: var(--love) !important;
 }
 
 
@@ -1083,6 +1103,16 @@ button[aria-label="User Settings"] .lottieIcon__5eb9b svg path {
 .container__55c99 {
     background-color: var(--overlay) !important;
 }
+
+.voiceFiltersPopout_e2f668{
+    background-color: var(--overlay) !important;
+    border-radius: 15px !important;
+}
+.voiceFiltersFooter_e2f668 {
+    background-color: var(--highlightLow) !important;
+    border-radius: 15px !important;
+}
+
 
 .voiceFiltersPopout_e2f668{
     background-color: var(--overlay) !important;

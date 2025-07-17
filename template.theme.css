@@ -47,23 +47,6 @@ CONFIGURATION 📝‼️
     /* Hide the original SVG */
 }
 
-/* Top left custom text */
-.container_c48ade::before {
-    content: "Rosé Pine";
-    position: absolute;
-    top: 10px;
-    left: 16px;
-    color: #ffffff77;
-    font-size: 14px;
-    font-weight: bold;
-    font-family: var(--font-primary);
-    z-index: 9999;
-    pointer-events: none;
-    opacity: 0.9;
-    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
-
-}
-
 .wrapper__6e9f8[aria-label="Direct Messages"] .childWrapper__6e9f8 {
     display: flex;
     /* Ensure proper layout */

@@ -11,11 +11,10 @@
 CONFIGURATION 📝‼️
 */
 
-
 :root {
     /* 1=False ; 0=True */
     --windows-hover: 1;
-
+    
     --base: #232136;
     --surface: #2a273f;
     --overlay: #393552;
@@ -266,7 +265,6 @@ CONFIGURATION 📝‼️
     color: var(--foam) !important;
 }
 
-
 /* Make Read Channel Names duller */
 .wrapper__2ea32:not(.modeUnreadImportant__2ea32) .name__2ea32 {
     /* color: var(--muted) !important; */
@@ -465,7 +463,6 @@ path.unreadPillCapStroke__908e2 {
 .iconWrapper__9293f.clickable__9293f[aria-label="Close"] path {
     fill: var(--love) !important;
 }
-
 
 /* Code Blocks */
 .codeContainer__75297 {
@@ -1057,7 +1054,6 @@ button[aria-label="User Settings"] .lottieIcon__5eb9b svg path {
     background-color: var(--surface) !important;
 }
 
-
 .top_b3f026 .item_b3f026.brand_b3f026 {
     background-color: transparent !important;
 }
@@ -1109,7 +1105,6 @@ button[aria-label="User Settings"] .lottieIcon__5eb9b svg path {
     background-color: var(--highlightLow) !important;
     border-radius: 15px !important;
 }
-
 
 
 

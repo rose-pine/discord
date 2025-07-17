@@ -12,10 +12,9 @@ CONFIGURATION 📝‼️
 */
 
 :root {
-
     /* 1=False ; 0=True */
     --windows-hover: 1;
-
+    
     --base: #faf4ed;
     --surface: #fffaf3;
     --overlay: #f2e9e1;
@@ -90,11 +89,6 @@ CONFIGURATION 📝‼️
     cursor: default;
 
 }
-
-.trailing_c38106 {
-    padding-right: 10px !important;
-}
-
 .trailing_c38106 {
     padding-right: 10px !important;
 }
@@ -270,7 +264,6 @@ CONFIGURATION 📝‼️
 .channelInfo_c69b6d {
     color: var(--foam) !important;
 }
-
 
 /* Make Read Channel Names duller */
 .wrapper__2ea32:not(.modeUnreadImportant__2ea32) .name__2ea32 {

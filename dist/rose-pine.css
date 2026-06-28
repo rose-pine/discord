@@ -1,20 +1,21 @@
 /**
 * @name Rosé Pine
 * @author Ardo
-* @version 4.5.0
+* @version 4.5.1
 * @description All natural pine, faux fur and a bit of soho vibes for the classy minimalist.
 * @source https://github.com/rose-pine/discord
 * @updateUrl https://github.com/rose-pine/discord/blob/rose-pine.theme.css
 */
 
-/* 
+/*
 CONFIGURATION 📝‼️
 */
 
 :root {
     /* 1=False ; 0=True */
     --windows-hover: 1;
-    
+    --topbar-hidden: 1;
+
     --base: #191724;
     --surface: #1f1d2e;
     --overlay: #26233a;
@@ -32,9 +33,7 @@ CONFIGURATION 📝‼️
     --highlightHigh: #524f67;
 }
 
-
 /* ---------------------------- Global Styles ---------------------------- */
-
 
 /* Main Background */
 .content_c48ade {
@@ -76,14 +75,12 @@ CONFIGURATION 📝‼️
     pointer-events: none;
     opacity: 0.9;
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
-
 }
 
 .base__5e434,
 .content__5e434 {
     background-color: var(--overlay);
 }
-
 
 /* ---------------------------- System Bar (Windows) ---------------------------- */
 
@@ -111,7 +108,6 @@ CONFIGURATION 📝‼️
     margin: 0 4px;
     opacity: var(--windows-hover);
     cursor: default;
-
 }
 .trailing_c38106 {
     padding-right: 10px !important;
@@ -140,7 +136,11 @@ CONFIGURATION 📝‼️
 }
 
 .winButton_c38106[aria-label="Close"]:hover {
-    background-color: color-mix(in srgb, var(--love), transparent 40%) !important;
+    background-color: color-mix(
+        in srgb,
+        var(--love),
+        transparent 40%
+    ) !important;
 }
 
 /* Minimize */
@@ -149,7 +149,11 @@ CONFIGURATION 📝‼️
 }
 
 .winButton_c38106:nth-child(2):hover {
-    background-color: color-mix(in srgb, var(--gold), transparent 40%) !important;
+    background-color: color-mix(
+        in srgb,
+        var(--gold),
+        transparent 40%
+    ) !important;
 }
 
 /* Maximize */
@@ -158,15 +162,16 @@ CONFIGURATION 📝‼️
 }
 
 .winButton_c38106:nth-child(1):hover {
-    background-color: color-mix(in srgb, var(--iris), transparent 40%) !important;
+    background-color: color-mix(
+        in srgb,
+        var(--iris),
+        transparent 40%
+    ) !important;
 }
 
 .winButton_c38106:hover {
     opacity: 0.8;
 }
-
-
-
 
 /* ---------------------------- Server List (Left Sidebar) ---------------------------- */
 
@@ -178,7 +183,6 @@ CONFIGURATION 📝‼️
     margin-left: 12px !important;
     margin-right: 10px !important;
 }
-
 
 .itemsContainer_ef3116 {
     background-color: var(--overlay) !important;
@@ -311,8 +315,7 @@ CONFIGURATION 📝‼️
 /*Channel title*/
 #message-username-1344916305186390036
 
-/*Username of message*/
-    {
+/*Username of message*/ {
     color: var(--text) !important;
 }
 .panels__5e434 {
@@ -354,7 +357,8 @@ CONFIGURATION 📝‼️
 }
 
 /* New message text */
-.channelInfo_c69b6d, .text-xs\/semibold_cf4812 {
+.channelInfo_c69b6d,
+.text-xs\/semibold_cf4812 {
     color: var(--foam) !important;
 }
 
@@ -383,20 +387,26 @@ CONFIGURATION 📝‼️
     /* Channel title */
     color: var(--base) !important;
 }
+
+.sidebarResizeHandle__5e434 {
+    background-color: var(--overlay) !important;
+    display: none !important;
+}
 /* Remove the ugly gradient */
 .chatGradient__36d07.chatGradientBase__36d07,
 .chatGradient__36d07,
 .chatGradientBase__36d07 {
-  display: none !important;
-  content: none !important;
-  background: none !important;
-  background-image: none !important;
-  box-shadow: none !important;
-  mask: none !important;
-  pointer-events: none !important;
+    display: none !important;
+    content: none !important;
+    background: none !important;
+    background-image: none !important;
+    box-shadow: none !important;
+    mask: none !important;
+    pointer-events: none !important;
 }
 
-&.theme-midnight .content_f75fb0, &.theme-midnight .subtitleContainer_f75fb0 {
+&.theme-midnight .content_f75fb0,
+&.theme-midnight .subtitleContainer_f75fb0 {
     border-left: none !important    ;
 }
 
@@ -411,7 +421,11 @@ CONFIGURATION 📝‼️
     color: var(--surface) !important;
 }
 
-.members_c8ffbb .thin__99f8c .scrollerBase__99f8c .fade__99f8c .customTheme__99f8c {
+.members_c8ffbb
+    .thin__99f8c
+    .scrollerBase__99f8c
+    .fade__99f8c
+    .customTheme__99f8c {
     /* Hidden members in category */
     color: var(--surface) !important;
     background-color: var(--surface) !important;
@@ -434,7 +448,6 @@ CONFIGURATION 📝‼️
     fill: var(--base);
 }
 
-
 .messageContent_c19a55 {
     /* Message text */
     color: var(--text) !important;
@@ -452,7 +465,6 @@ CONFIGURATION 📝‼️
 /* VC background */
 .callContainer_cb9592 {
     background-color: var(--surface) !important;
-
 }
 
 .membersGroup_c8ffbb.container__13cf1 {
@@ -606,8 +618,6 @@ path.unreadPillCapStroke__908e2 {
     background-color: var(--love) !important;
 }
 
-
-
 /* Polls */
 .container__0be77 {
     background-color: var(--highlightMed) !important;
@@ -627,10 +637,8 @@ path.unreadPillCapStroke__908e2 {
 
 /* Voice chat */
 .root_bfe55a {
-    background: var(--base)
+    background: var(--base);
 }
-
-
 
 /* -------------Message Area TopBar - Channel Name -----------*/
 .title_f75fb0 {
@@ -714,8 +722,6 @@ path.unreadPillCapStroke__908e2 {
     color: var(--gold) !important;
 }
 
-
-
 /* Search Results */
 .searchHeader_f3b986,
 .scroller_a9e706 {
@@ -752,7 +758,6 @@ path.unreadPillCapStroke__908e2 {
 .returnButton__0b563.button__201d5.lookOutlined__201d5.colorPrimary__201d5.sizeSmall__201d5.grow__201d5:hover {
     background-color: var(--iris) !important;
 }
-
 
 /* ---------------------------- User Area (Bottom Left) ---------------------------- */
 
@@ -812,7 +817,6 @@ rect[mask="url(#svg-mask-status-idle)"] {
     background-color: var(--overlay) !important;
 }
 
-
 /* Screen Share */
 .panel__5dec7.activityPanel_c48ade {
     background-color: var(--surface) !important;
@@ -826,7 +830,10 @@ button[aria-label="Disconnect"] .lottieIcon__5eb9b svg path {
     fill: var(--love) !important;
 }
 
-button[aria-label="Noise Suppression powered by Krisp"] .lottieIcon__5eb9b svg path {
+button[aria-label="Noise Suppression powered by Krisp"]
+    .lottieIcon__5eb9b
+    svg
+    path {
     fill: var(--subtle) !important;
 }
 
@@ -841,7 +848,6 @@ button[aria-label="Deafen"] .lottieIcon__5eb9b svg path {
 button[aria-label="User Settings"] .lottieIcon__5eb9b svg path {
     fill: var(--iris) !important;
 }
-
 
 /* User Popout Card */
 
@@ -873,14 +879,17 @@ button[aria-label="User Settings"] .lottieIcon__5eb9b svg path {
 }
 
 .outer_c0bea0 {
-    background-color: color-mix(in srgb, var(--foam), transparent 30%) !important;
+    background-color: color-mix(
+        in srgb,
+        var(--foam),
+        transparent 30%
+    ) !important;
 }
 
 .panel__5dec7.activityPanel__5e434 {
     background-color: var(--surface) !important;
     border-radius: 20px !important;
 }
-
 
 /* ---------------------------- Text Input ---------------------------- */
 
@@ -903,7 +912,6 @@ button[aria-label="User Settings"] .lottieIcon__5eb9b svg path {
     border: none !important;
 }
 
-
 /* Add File */
 .channelAttachmentArea_b77158.scrollbarGhost__506b3.scrollbar__506b3 {
     background-color: transparent !important;
@@ -912,7 +920,6 @@ button[aria-label="User Settings"] .lottieIcon__5eb9b svg path {
 .uploadContainer_aa605f,
 .upload_aa605f {
     background-color: var(--highlightMed) !important;
-
 }
 
 .wrapper_f7ecac {
@@ -928,7 +935,6 @@ button[aria-label="User Settings"] .lottieIcon__5eb9b svg path {
     background-color: transparent !important;
 }
 
-
 /* Attach Button */
 .attachButton__0923f.attachButton__74017.button__201d5.lookBlank__201d5.colorBrand__201d5.grow__201d5 {
     background-color: transparent !important;
@@ -941,7 +947,6 @@ button[aria-label="User Settings"] .lottieIcon__5eb9b svg path {
 .contents__201d5.attachButtonInner__0923f:hover {
     color: color-mix(in srgb, var(--love), transparent 70%) !important;
 }
-
 
 .placeholder__1b31f,
 /* Placeholder text */
@@ -980,8 +985,6 @@ button[aria-label="User Settings"] .lottieIcon__5eb9b svg path {
     background-color: var(--surface) !important;
 }
 
-
-
 .closeButton_e876a8 {
     color: var(--love) !important;
 }
@@ -996,7 +999,6 @@ button[aria-label="User Settings"] .lottieIcon__5eb9b svg path {
     color: var(--text) !important;
     background-color: var(--highlightLow) !important;
 }
-
 
 /* ---------------------------- Scrollbars ---------------------------- */
 
@@ -1046,7 +1048,6 @@ button[aria-label="User Settings"] .lottieIcon__5eb9b svg path {
     background-color: var(--rose) !important;
 }
 
-
 .mention {
     background-color: rgba(var(--rose), 0.1) !important;
     /* Adjust alpha for intensity */
@@ -1055,12 +1056,20 @@ button[aria-label="User Settings"] .lottieIcon__5eb9b svg path {
 }
 
 .mentioned__5126c {
-    background-color: color-mix(in srgb, var(--rose), transparent 80%) !important;
+    background-color: color-mix(
+        in srgb,
+        var(--rose),
+        transparent 80%
+    ) !important;
 }
 
 .replying__5126c {
     /* Reply */
-    background-color: color-mix(in srgb, var(--foam), transparent 80%) !important;
+    background-color: color-mix(
+        in srgb,
+        var(--foam),
+        transparent 80%
+    ) !important;
 }
 
 .message__5126c.cozyMessage__5126c.replying__5126c.wrapper_c19a55.cozy_c19a55.zalgo_c19a55::before {
@@ -1076,8 +1085,6 @@ button[aria-label="User Settings"] .lottieIcon__5eb9b svg path {
 .message__5126c.cozyMessage__5126c.mentioned__5126c.groupStart__5126c.wrapper_c19a55.cozy_c19a55.zalgo_c19a55::before {
     background-color: var(--rose) !important;
 }
-
-
 
 /* ---------------------------- Onboarding ---------------------------- */
 .scroller__7d20c {
@@ -1107,7 +1114,6 @@ button[aria-label="User Settings"] .lottieIcon__5eb9b svg path {
 
 .actionButton_f8fa06 {
     background-color: var(--overlay) !important;
-
 }
 
 /* Activity Now */
@@ -1125,7 +1131,135 @@ button[aria-label="User Settings"] .lottieIcon__5eb9b svg path {
     background-color: var(--love) !important;
 }
 
+/* ---------------------------- Friends Page ---------------------------- */
 
+/* Main container for DM list/Friends sidebar */
+.privateChannels_e6b769 {
+    background-color: var(--surface) !important;
+}
+
+/* Fix height and rounding for the friends/DM sidebar */
+.sidebarList__5e434 {
+    border-top-right-radius: 20px !important;
+    border-bottom-right-radius: 20px !important;
+    margin-bottom: var(--gap) !important; /* Add space between sidebar and user panel */
+}
+
+/* Fix layout issues on Friends page */
+.sidebarList__5e434 {
+    border-radius: var(--radius-lg) !important; /* Match theme's corner rounding */
+    margin-right: var(--gap) !important; /* Add gap between sidebar and main content */
+    margin-bottom: calc(var(--custom-app-panels-height, 58px) + var(--gap)) !important; /* Prevent overlap with user panel */
+}
+
+/* Text for items like Friends, Nitro, DMs */
+.privateChannels_e6b769 .name__20a53 {
+    color: var(--text) !important;
+    opacity: 0.6; /* Dull non-selected items */
+}
+
+/* Icon color for Friends, Nitro, etc. */
+.privateChannels_e6b769 .linkButtonIcon__972a0 {
+    color: var(--subtle) !important;
+}
+
+/* Hover styles for items */
+.privateChannels_e6b769 .interactive_bf202d:hover {
+    background-color: var(--highlightLow) !important;
+}
+.privateChannels_e6b769 .interactive_bf202d:hover .name__20a53 {
+    opacity: 1;
+}
+.privateChannels_e6b769 .interactive_bf202d:hover .linkButtonIcon__972a0 {
+    color: var(--text) !important;
+}
+
+/* Selected item styles */
+.privateChannels_e6b769 .interactiveSelected__972a0 {
+    background-color: color-mix(
+        in srgb,
+        var(--iris),
+        transparent 85%
+    ) !important;
+}
+.privateChannels_e6b769 .interactiveSelected__972a0 .name__20a53 {
+    color: var(--iris) !important;
+    opacity: 1 !important;
+}
+.privateChannels_e6b769 .interactiveSelected__972a0 .linkButtonIcon__972a0 {
+    color: var(--iris) !important;
+}
+
+/* "Direct Messages" Header */
+.privateChannelsHeaderContainer__99e7c .headerText__99e7c {
+    color: var(--iris) !important;
+}
+
+/* Find or start a conversation button */
+.searchBar_e6b769 .button_a22cb0 {
+    background-color: var(--overlay) !important;
+    color: var(--subtle) !important;
+}
+.searchBar_e6b769 .button_a22cb0:hover {
+    background-color: var(--highlightMed) !important;
+    color: var(--text) !important;
+}
+
+/* Main friends page content area */
+.peopleColumn__133bf,
+.nowPlayingColumn__133bf {
+    background-color: var(--surface) !important;
+}
+
+/* Online/All/Pending Tab bar */
+.tabBar__133bf .item__133bf {
+    color: var(--subtle) !important;
+}
+.tabBar__133bf .item__133bf.selected_aa8da2 {
+    color: var(--text) !important;
+    background-color: var(--overlay) !important;
+}
+.tabBar__133bf .addFriend__133bf {
+    background-color: var(--foam) !important;
+    color: var(--base) !important;
+}
+
+/* Friend list items */
+.peopleListItem_cc6179 .username__0a06e {
+    color: var(--text) !important;
+}
+.peopleListItem_cc6179 .subtext__0a06e,
+.peopleListItem_cc6179 .statusText__19b6d,
+.peopleListItem_cc6179 .text__19b6d {
+    color: var(--subtle) !important;
+}
+.peopleListItem_cc6179:hover {
+    background-color: var(--highlightLow) !important;
+}
+
+/* Section title (e.g. ONLINE - 7) */
+.peopleList__5ec2f .sectionTitle__5ec2f .title__1472a {
+    color: var(--iris) !important;
+}
+
+/* Active Now card */
+.emptyCard__7e549 {
+    background-color: var(--overlay) !important;
+}
+.emptyCard__7e549 .emptyHeader__7e549 {
+    color: var(--text) !important;
+}
+.emptyCard__7e549 .emptyText__7e549 {
+    color: var(--subtle) !important;
+}
+
+/* Search bar on friends page */
+.searchBar__5ec2f {
+    background-color: var(--surface) !important;
+}
+.searchBar__5ec2f .input__0f084 {
+    background-color: var(--overlay) !important;
+}
 
 /* ---------------------------- Settings ---------------------------- */
 
@@ -1155,9 +1289,7 @@ button[aria-label="User Settings"] .lottieIcon__5eb9b svg path {
     background-color: transparent !important;
 }
 
-
 /* ---------------------------- Dialogues ---------------------------- */
-
 
 /* Confirm Delete */
 .root__49fc1 {
@@ -1183,7 +1315,7 @@ button[aria-label="User Settings"] .lottieIcon__5eb9b svg path {
     background-color: var(--overlay) !important;
 }
 
-.voiceFiltersPopout_e2f668{
+.voiceFiltersPopout_e2f668 {
     background-color: var(--overlay) !important;
     border-radius: 15px !important;
 }
@@ -1192,20 +1324,17 @@ button[aria-label="User Settings"] .lottieIcon__5eb9b svg path {
     border-radius: 15px !important;
 }
 
-
-
-/* 
+/*
 ==================================================================
 
 ‼️✨  ROUNDNESS CUSTOMIZATIONS AHEAD  ✨‼️
 
 ==================================================================
-Credits: 
+Credits:
 */
 
-
 /* main.css */
-@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
 :root {
     container-name: root;
@@ -1301,8 +1430,7 @@ Credits:
     ,
     .container_a592e1
 
-    /* server discovery */
-        {
+    /* server discovery */ {
         border-radius: var(--radius-lg);
         border: 1px solid var(--border-subtle);
         backdrop-filter: var(--panel-backdrop-filter);
@@ -1310,23 +1438,23 @@ Credits:
 
     .base_c48ade
 
-    /* base grid */
-        {
+    /* base grid */ {
         display: grid;
         grid-template-columns: [start] min-content [guildsEnd] min-content [channelsEnd] 1fr [end];
-        grid-template-rows: [top] var(--custom-app-top-bar-height) [titleBarEnd] min-content [noticeEnd] 1fr [contentEnd] min-content [end];
+        grid-template-rows:
+            [top] var(--custom-app-top-bar-height)
+            [titleBarEnd] min-content [noticeEnd] 1fr [contentEnd] min-content [end];
         grid-template-areas:
-            'titleBar titleBar titleBar'
-            'guildsList notice notice'
-            'guildsList channelsList page'
-            'userPanel userPanel page';
+            "titleBar titleBar titleBar"
+            "guildsList notice notice"
+            "guildsList channelsList page"
+            "userPanel userPanel page";
         gap: 0 var(--gap);
     }
 
     .panels_c48ade
 
-    /* user panel */
-        {
+    /* user panel */ {
         width: 100%;
         position: static;
         grid-area: userPanel;
@@ -1337,22 +1465,19 @@ Credits:
 
     .sidebar_c48ade
 
-    /* server list + channel list + user panel group */
-        {
+    /* server list + channel list + user panel group */ {
         margin: 0 0 var(--gap) var(--gap);
     }
 
     .guilds_c48ade
 
-    /* server list */
-        {
+    /* server list */ {
         margin-bottom: 0;
     }
 
     .scroller_ef3116
 
-    /* server list inner scroller */
-        {
+    /* server list inner scroller */ {
         padding-top: var(--custom-guild-list-padding);
     }
 
@@ -1365,15 +1490,13 @@ Credits:
     .container__2637a,
     .header_f37cb1
 
-    /* server name */
-        {
+    /* server name */ {
         background: none;
     }
 
     .sidebar_c48ade:after
 
-    /* server list + channel list bottom shadow */
-        {
+    /* server list + channel list bottom shadow */ {
         display: none;
     }
 
@@ -1391,29 +1514,26 @@ Credits:
         background: none;
     }
 
-    .page_c48ade>.chat_f75fb0,
-    .page_c48ade>.container__133bf {
+    .page_c48ade > .chat_f75fb0,
+    .page_c48ade > .container__133bf {
         padding: 0;
     }
 
     .container__9293f
 
-    /* friends, message requests, + other stuff titlebar */
-        {
+    /* friends, message requests, + other stuff titlebar */ {
         margin-bottom: var(--gap);
     }
 
     .subtitleContainer_f75fb0
 
-    /* chat titlebar  */
-        {
+    /* chat titlebar  */ {
         margin-bottom: var(--gap);
     }
 
     .title_f75fb0
 
-    /* chat titlebar inner */
-        {
+    /* chat titlebar inner */ {
         border: none;
         background: none;
         margin-bottom: 0;
@@ -1421,15 +1541,13 @@ Credits:
 
     .chatContent_f75fb0
 
-    /* chat */
-        {
+    /* chat */ {
         overflow: hidden;
     }
 
     .container_c8ffbb
 
-    /* member list */
-        {
+    /* member list */ {
         margin-left: var(--gap);
         overflow: hidden;
         height: auto;
@@ -1438,8 +1556,7 @@ Credits:
 
     .content_f75fb0>.membersWrap_c8ffbb
 
-    /* forum post member list */
-        {
+    /* forum post member list */ {
         margin-left: var(--gap);
         overflow: hidden;
         height: auto;
@@ -1450,97 +1567,83 @@ Credits:
     ,
     .member_c8ffbb
 
-    /* member list item */
-        {
+    /* member list item */ {
         background: none;
     }
 
     .resizeHandle__01ae2
 
-    /* resize handle */
-        {
+    /* resize handle */ {
         background: transparent;
     }
 
-    .privateChannels__35e86
-    /* dm list */
+    .privateChannels_e6b769 /* dm list */
     ,
     .scroller__99e7c
 
-    /* dm list inner */
-        {
+    /* dm list inner */ {
         background: none;
     }
 
     .scroller__99e7c
 
-    /* dm list inner */
-        {
+    /* dm list inner */ {
         margin-bottom: 0;
     }
 
     .tabBody__133bf
 
-    /* online friends + active now group outer */
-        {
+    /* online friends + active now group outer */ {
         background: none;
     }
 
     .nowPlayingColumn__133bf
 
-    /* active now */
-        {
+    /* active now */ {
         margin-left: var(--gap);
     }
 
     .container__7d20c
 
-    /* active now inner */
-        {
+    /* active now inner */ {
         background: none;
     }
 
     .scroller__7d20c
 
-    /* active now inner */
-        {
+    /* active now inner */ {
         border: none;
     }
 
     .homeWrapper__0920e
 
-    /* nitro page group inner */
-        {
+    /* nitro page group inner */ {
         border: none;
         background: none;
     }
 
     .applicationStore_f07d62
 
-    /* nitro page group outer */
-        {
+    /* nitro page group outer */ {
         background: none;
     }
 
     .shop__6db1d
 
-    /* shop */
-        {
+    /* shop */ {
         overflow: hidden;
         height: auto;
     }
 
     .shop__08415
 
-    /* shop inner scroller */
-        {
+    /* shop inner scroller */ {
         margin-top: calc(var(--custom-channel-header-height) * -1 - 16px);
     }
 
     .outer_c0bea0.panel_c0bea0
 
-    /* dm user panel */
-        {
+    /* dm user panel */ {
         margin-left: var(--gap);
         overflow: hidden;
         height: auto;
@@ -1549,23 +1652,20 @@ Credits:
 
     .searchResultsWrap_a9e706
 
-    /* search results */
-        {
+    /* search results */ {
         margin-left: var(--gap);
     }
 
     .notice__6e2b9
 
-    /* notice banner */
-        {
+    /* notice banner */ {
         margin: 0 var(--gap) var(--gap) 0;
         border-radius: var(--radius-md);
     }
 
     .callContainer_cb9592
 
-    /* vc container */
-        {
+    /* vc container */ {
         border-radius: var(--radius-lg) !important;
         border: 1px solid var(--border-subtle);
         overflow: hidden;
@@ -1573,73 +1673,63 @@ Credits:
 
     .container__01ae2
 
-    /* vc chat + titlebar group */
-        {
+    /* vc chat + titlebar group */ {
         border: none;
         background: none;
     }
 
     .chat_ee72fa::before
 
-    /* vc chat shadow */
-        {
+    /* vc chat shadow */ {
         display: none;
     }
 
     .channelChatWrapper_cb9592
 
-    /* vc chat + titlebar group outer */
-        {
+    /* vc chat + titlebar group outer */ {
         background: none;
     }
 
     .page_c48ade>.chatLayerWrapper__01ae2
 
-    /* forum/thread chat outer */
-        {
+    /* forum/thread chat outer */ {
         margin: 0 var(--gap) var(--gap) 0;
         height: calc(100% - var(--gap));
     }
 
     .container__01ae2
 
-    /* forum/thread chat */
-        {
+    /* forum/thread chat */ {
         padding-left: calc((var(--gap) - var(--chat-resize-handle-width)));
     }
 
     .container_fb64c9
 
-    /* new thread panel */
-        {
+    /* new thread panel */ {
         background: none;
     }
 
     .chat_fb64c9::before
 
-    /* new thread panel chat shadow */
-        {
+    /* new thread panel chat shadow */ {
         display: none;
     }
 
     .container_a592e1
 
-    /* server discovery */
-        {
+    /* server discovery */ {
         overflow: hidden;
     }
 
     .backdrop__8a7fc
 
-    /* server discovery top bar */
-        {
+    /* server discovery top bar */ {
         background-color: var(--background-base-lower);
     }
 
     .wrapper_cb9592
 
-    /* dm vc wrapper */
-        {
+    /* dm vc wrapper */ {
         background: none;
         margin-bottom: var(--gap);
     }
@@ -1667,8 +1757,7 @@ Credits:
 
     .newMessagesBar__0f481
 
-    /* unread messages bar */
-        {
+    /* unread messages bar */ {
         top: 12px;
         left: 12px;
         right: 12px;
@@ -1678,8 +1767,7 @@ Credits:
 
     .bottom__7aaec
 
-    /* channel list new unreads pill */
-        {
+    /* channel list new unreads pill */ {
         bottom: 12px;
     }
 
@@ -1688,22 +1776,22 @@ Credits:
     /* server list new pill */
     ,
     .unreadMentionsIndicatorTop_ef3116 {
-        width: calc(var(--guildbar-avatar-size) + var(--custom-guild-list-padding) * 2);
+        width: calc(
+            var(--guildbar-avatar-size) + var(--custom-guild-list-padding) * 2
+        );
         padding: calc(var(--custom-guild-list-padding) / 2);
     }
 
     /* jank ass solution to only apply padding to treatment 3 */
     .form_f75fb0
 
-    /* chat bar outer form */
-        {
+    /* chat bar outer form */ {
         --space-8: 16px;
     }
 
     .channelBottomBarArea_f75fb0
 
-    /* chat bar inner */
-        {
+    /* chat bar inner */ {
         --space-8: 8px;
     }
 
@@ -1715,22 +1803,19 @@ Credits:
     /* general chat bar improvements */
     .channelTextArea_f75fb0
 
-    /* chat bar */
-        {
+    /* chat bar */ {
         border-radius: var(--radius-md);
     }
 
     .themedBackground__74017
 
-    /* chat bar inner */
-        {
+    /* chat bar inner */ {
         background: none;
     }
 
     .slateTextArea_ec4baf
 
-    /* actual typing area */
-        {
+    /* actual typing area */ {
         margin-left: 2px;
     }
 
@@ -1777,8 +1862,7 @@ Credits:
     /* improve borders */
     .reaction__23977
 
-    /* message reactions */
-        {
+    /* message reactions */ {
         border-width: 2px;
     }
 
@@ -1794,8 +1878,7 @@ Credits:
     ,
     .container__9271d
 
-    /* thread link */
-        {
+    /* thread link */ {
         border-radius: var(--radius-md);
     }
 
@@ -1804,22 +1887,19 @@ Credits:
     ,
     .contentWrapper__08434
 
-    /* gif panel */
-        {
+    /* gif panel */ {
         border-radius: var(--radius-lg);
     }
 
     .inner_c0bea0
 
-    /* profile inner */
-        {
+    /* profile inner */ {
         border-radius: calc(var(--radius-lg) - 4px);
     }
 
     .outer_c0bea0
 
-    /* profile outer */
-        {
+    /* profile outer */ {
         border: 1px solid var(--border-subtle);
     }
 
@@ -1828,8 +1908,7 @@ Credits:
     }
 }
 
-
-[class*='scroll'] {
+[class*="scroll"] {
     will-change: scroll-position;
 }
 
@@ -1837,11 +1916,9 @@ Credits:
     display: none;
 }
 
-
-
 /* transparency-blur.css */
 @property --panel-blur {
-    syntax: 'on | off';
+    syntax: "on | off";
     inherits: false;
     initial-value: off;
 }
@@ -1857,8 +1934,7 @@ Credits:
         ,
         .tooltip__382e7
 
-        /* tooltips */
-            {
+        /* tooltips */ {
             background: var(--bg-floating);
         }
 
@@ -1885,22 +1961,20 @@ Credits:
         ,
         .popout__76f04
 
-        /* channel hover popout */
-            {
+        /* channel hover popout */ {
             background: var(--bg-floating);
         }
     }
 }
 
 @property --transparency-tweaks {
-    syntax: 'on | off';
+    syntax: "on | off";
     inherits: false;
     initial-value: off;
 }
 
 @container root style(--transparency-tweaks: on) {
     .visual-refresh {
-
         .formWithLoadedChatInput_f75fb0:before,
         .children__9293f:after {
             display: none;
@@ -1908,20 +1982,17 @@ Credits:
     }
 }
 
-
 @container root style(--small-user-panel: on) {
     .visual-refresh {
         .base_c48ade {
             grid-template-areas:
-                'titleBar titleBar titleBar'
-                'guildsList notice notice'
-                'guildsList channelsList page'
-                'guildsList userPanel page';
+                "titleBar titleBar titleBar"
+                "guildsList notice notice"
+                "guildsList channelsList page"
+                "guildsList userPanel page";
         }
     }
 }
-
-
 
 /* More Animations */
 
@@ -1951,7 +2022,7 @@ Credits:
 
 /*
 ===========================
-USER POPOUT CARD 
+USER POPOUT CARD
 ===========================
 */
 #popout_43 {
@@ -1972,9 +2043,9 @@ Server Member List
     opacity: 1;
 }
 
-/* 
+/*
 ===========================
-Collapsible Search Bar 
+Collapsible Search Bar
 ===========================
 */
 .search__49676 {
@@ -2062,10 +2133,10 @@ Collapsible Search Bar
     transition: opacity 0.2s ease-in-out !important;
 }
 
-.search__49676:not(:focus-within) .iconContainer_fea832>svg:last-child {
+.search__49676:not(:focus-within) .iconContainer_fea832 > svg:last-child {
     display: none !important;
 }
 
-.search__49676:not(:focus-within) .iconContainer_fea832>svg:first-child {
+.search__49676:not(:focus-within) .iconContainer_fea832 > svg:first-child {
     display: block !important;
 }
